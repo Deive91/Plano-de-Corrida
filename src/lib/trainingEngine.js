@@ -405,17 +405,26 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
         day.cooldown = lightCooldown;
         break;
       case 'INTERVAL': {
+        const isStrongWeek = weekNumber % 2 !== 0; // Semanas ímpares = fortes
         day.distance = Math.max(1, Math.round(perRunKm * 0.8 * 10) / 10);
         day.targetPace = intervalPace;
+        
         if (level === 'beginner') {
-          day.details = `Fartlek (Brincar de correr): ${Math.round(day.distance)} km totais. Alterne 1 min de corrida forte com 2 min de caminhada.`;
+          day.details = isStrongWeek
+            ? `Fartlek (Forte): ${Math.round(day.distance)} km totais. Alterne 2 min de corrida rápida com 1 min de caminhada.`
+            : `Fartlek (Moderado): ${Math.round(day.distance)} km totais. Alterne 1 min de corrida forte com 2 min de caminhada.`;
         } else if (level === 'advanced') {
           const reps = Math.min(6, Math.max(3, Math.round(day.distance / 1.0)));
-          day.details = `${reps}x 1000m (Tiros cruéis de VO2) + 400m trote de recuperação (~${day.distance} km total).`;
+          day.details = isStrongWeek
+            ? `${reps + 2}x 1000m (Tiros no limite) + 400m de trote para recuperar.`
+            : `${reps}x 1000m (Tiros de manutenção) + 400m de trote para recuperar.`;
         } else {
           const reps = Math.min(10, Math.max(3, Math.round(day.distance / 0.4)));
-          day.details = `${reps}x 400m fortes + 200m trote de recuperação (~${day.distance} km total).`;
+          day.details = isStrongWeek
+            ? `${reps + 2}x 400m muito fortes + 200m de trote de recuperação.`
+            : `${reps}x 400m ritmo firme e controlado + 200m de trote de recuperação.`;
         }
+        
         day.warmup = heavyWarmup;
         day.cooldown = heavyCooldown;
         break;
@@ -615,15 +624,25 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
         day.warmup = null;
         day.cooldown = null;
         break;
-      case 'HILL':
+      case 'HILL': {
+        const isStrongWeek = weekNumber % 2 !== 0; // Semanas ímpares = fortes
         day.distance = 0; 
         day.targetPace = null;
-        day.details = level === 'advanced' 
-          ? '12x 30s de tiro muito forte em ladeira. Volta trotando leve.'
-          : '8x 15s de tiro em subida íngreme. Volta descendo devagar.';
+        
+        if (level === 'advanced') {
+          day.details = isStrongWeek 
+            ? 'Treino Forte: 15x 30s de tiro máximo em ladeira muito íngreme. Volta trotando.'
+            : 'Treino Moderado: 10x 30s em ladeira média. Volta trotando leve.';
+        } else {
+          day.details = isStrongWeek
+            ? 'Treino Forte: 10x 20s de tiro em subida. Volta descendo devagar.'
+            : 'Treino Moderado: 6x 20s em ritmo firme na subida. Volta descendo devagar.';
+        }
+        
         day.warmup = heavyWarmup;
         day.cooldown = '5 min de caminhada plana.';
         break;
+      }
       case 'CROSS_TRAINING':
         day.distance = 0;
         day.targetPace = null;
