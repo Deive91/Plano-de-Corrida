@@ -36,17 +36,17 @@ export const TRAINING_TYPES = {
   },
   INTERVAL: {
     id: 'INTERVAL',
-    name: 'Intervalado',
+    name: 'Intervalado (Tiros)',
     emoji: '⚡',
     color: 'rose',
     description: 'Tiros de alta intensidade com recuperação',
   },
   TEMPO: {
     id: 'TEMPO',
-    name: 'Tempo Run',
+    name: 'Tempo Run (Ritmo Contínuo)',
     emoji: '🎯',
     color: 'sky',
-    description: 'Ritmo de prova sustentado',
+    description: 'Corrida em ritmo forte, simulando a prova',
   },
   REST: {
     id: 'REST',
@@ -64,14 +64,14 @@ export const TRAINING_TYPES = {
   },
   HILL: {
     id: 'HILL',
-    name: 'Treino de Rampa',
+    name: 'Treino de Rampa (Subidas)',
     emoji: '🏔️',
     color: 'orange',
-    description: 'Força e explosão em subidas',
+    description: 'Força e explosão em ladeiras',
   },
   CROSS_TRAINING: {
     id: 'CROSS_TRAINING',
-    name: 'Cross-Training',
+    name: 'Cross-Training (Outro Esporte)',
     emoji: '🚴',
     color: 'teal',
     description: 'Bicicleta, Natação ou Elíptico',
