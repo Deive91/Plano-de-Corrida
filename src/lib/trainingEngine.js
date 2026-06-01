@@ -469,7 +469,7 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
 • 10 Burpees
 • 20 Agachamentos com salto leve
 • 15 Remadas curvadas (ou elástico)
-• 20m Shuttle Run (Tiro c/ peso)
+• 20m Shuttle Run (Tiro de vai-e-vem c/ peso)
 
 [FINALIZADOR]
 • 15 Abdominais Remador
@@ -497,7 +497,7 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
 • 8 Burpees adaptados
 • 15 Agachamentos
 • 12 Remadas com elástico
-• 20m Shuttle Run
+• 20m Shuttle Run (Tiro de vai-e-vem)
 
 [FINALIZADOR]
 • 12 Abdominais Remador
@@ -526,7 +526,7 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
 • 5 Burpees adaptados (sem salto)
 • 10 Agachamentos na cadeira
 • 10 Remadas na porta (com lençol ou elástico)
-• 10m Shuttle Run
+• 10m Shuttle Run (Tiro de vai-e-vem)
 
 [FINALIZADOR]
 • 10 Abdominais curtos
@@ -557,7 +557,7 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
 • 6 Barras australianas
 • 10 Burpees (Sugado s/ flexão)
 • 20 Agachamentos
-• 20m Shuttle Run (Tiro c/ peso)
+• 20m Shuttle Run (Tiro de vai-e-vem c/ peso)
 
 [FINALIZADOR]
 • 15 Abdominais Remador
@@ -585,7 +585,7 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
 • 4 Barras australianas
 • 8 Burpees (Sugado s/ flexão)
 • 15 Agachamentos
-• 20m Shuttle Run (Tiro c/ peso)
+• 20m Shuttle Run (Tiro de vai-e-vem c/ peso)
 
 [FINALIZADOR]
 • 12 Abdominais Remador
@@ -613,7 +613,7 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
 • 3 Barras australianas
 • 5 Burpees adaptados (sem salto)
 • 10 Agachamentos
-• 10m Shuttle Run
+• 10m Shuttle Run (Tiro de vai-e-vem)
 
 [FINALIZADOR]
 • 10 Abdominais Remador
