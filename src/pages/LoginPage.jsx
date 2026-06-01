@@ -28,6 +28,24 @@ export default function LoginPage() {
     resetMessages();
   };
 
+  const handlePhoneMask = (value) => {
+    // Remove tudo que não é número
+    let v = value.replace(/\D/g, '');
+    
+    // Limita a 11 dígitos
+    if (v.length > 11) v = v.slice(0, 11);
+    
+    // Aplica a máscara: (99) 99999-9999
+    if (v.length > 2) {
+      v = `(${v.substring(0, 2)}) ${v.substring(2)}`;
+    }
+    if (v.length > 10) {
+      v = `${v.substring(0, 10)}-${v.substring(10)}`;
+    }
+    
+    setWhatsapp(v);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     resetMessages();
@@ -202,8 +220,8 @@ export default function LoginPage() {
                 <input
                   type="tel"
                   value={whatsapp}
-                  onChange={(e) => setWhatsapp(e.target.value)}
-                  placeholder="WhatsApp (ex: 11999999999)"
+                  onChange={(e) => handlePhoneMask(e.target.value)}
+                  placeholder="WhatsApp (ex: (11) 99999-9999)"
                   className="w-full pl-11 pr-4 py-3.5 rounded-xl bg-slate-800/40 border border-white/5 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-emerald-500/50 focus:bg-slate-800/80 focus:ring-4 focus:ring-emerald-500/10 transition-all shadow-inner"
                 />
               </div>
