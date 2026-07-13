@@ -1,18 +1,20 @@
 # Documentação Técnica e Científica: PlanoDeCorrida App
 
-**Data:** Julho de 2026 | **Versão:** 2.1  
+**Data:** Julho de 2026 | **Versão:** 2.2  
 **Arquitetura:** React 18 + Vite + TailwindCSS + Firebase Auth + JSON API Contract
 
 ---
 
-## 1. Visão Geral do Sistema e Atualizações Recentes (v2.1)
+## 1. Visão Geral do Sistema e Atualizações Recentes (v2.2)
 
 O **PlanoDeCorrida** é uma aplicação web adaptativa focada em periodização esportiva científica para corredores de rua de todos os níveis. O sistema calcula automaticamente cronogramas semanais baseados na idade, nível técnico e distância objetivo (de 5 km a 42 km - Maratona).
 
-Na **versão 2.1**, além de disponibilizar o contrato `workouts_api_catalog.json` para integração com banco de dados e APIs externas, atualizamos diretamente o coração da aplicação no arquivo `src/lib/workoutCatalog.js`. Agora, todos os 90 treinos oficiais (30 por perfil) estão estruturados com os seguintes campos científicos:
-- `id` e `api_id`
+Na **versão 2.2**, removemos todos os treinos antigos legados e mantivemos **ESTRITAMENTE os 30 novos treinos científicos** no arquivo `src/lib/workoutCatalog.js` (10 para Iniciante, 10 para Intermediário e 10 para Avançado), alinhados exatamente com o contrato do `workouts_api_catalog.json`.
+
+Cada um dos 30 treinos oficiais possui a seguinte estrutura científica e técnica completa:
+- `id` e `api_id` (de `1` a `30`)
 - `title` (Título descritivo do treino)
-- `type` (`EASY`, `INTERVAL`, `TEMPO`, `HILL`, `LONG`, `CROSS_TRAINING`)
+- `type` (`EASY`, `INTERVAL`, `TEMPO`, `HILL`, `LONG`)
 - `workout_type` (`continuo`, `intervalado`, `longo`, `regenerativo`)
 - `total_duration_minutes` (Duração total estimada)
 - `phases` (`warmup`, `main_set`, `cooldown` com indicações de zonas de FC, cadência e PSE)
@@ -27,13 +29,10 @@ Em conformidade com as boas práticas da fisiologia do exercício e feedback de 
 
 ---
 
-## 3. Catálogo Oficial dos Treinos (Amostra de Estrutura API)
+## 3. Catálogo Oficial dos 30 Treinos (100% dos Treinos Ativos no App)
 
-### Nível Iniciante (Foco em Adaptação Articular, Run-Walk e Continuidade)
+### Nível Iniciante (10 Treinos — Foco em Adaptação Articular, Run-Walk e Continuidade)
 1. **Adaptação Articular Run-Walk 1:1** (30 min | Contínuo)
-   - *Aquecimento:* 5 min caminhada rápida (PSE 3) + mobilidade articular.
-   - *Principal:* 10x [1 min trote leve Zona 2 + 1 min caminhada ativa].
-   - *Objetivo Fisiológico:* Aumento da capacidade aeróbia base e fortalecimento de tendões/ligamentos para absorção de impacto.
 2. **Evolução Contínua Run-Walk 2:1** (35 min | Contínuo)
 3. **Consolidação Aeróbica Run-Walk 3:1** (37 min | Contínuo)
 4. **Iniciação ao Trote Contínuo 15 min** (30 min | Contínuo)
@@ -44,7 +43,7 @@ Em conformidade com as boas práticas da fisiologia do exercício e feedback de 
 9. **Iniciação ao Limiar (Mini Tempo Run 2x6 min)** (36 min | Contínuo)
 10. **Longão de Conquista Aeróbica 25 min** (40 min | Longo)
 
-### Nível Intermediário (Foco em Volume, Limiar de Lactato e Fartlek)
+### Nível Intermediário (10 Treinos — Foco em Volume, Limiar de Lactato e Fartlek)
 11. **Volume Aeróbico de Base em Zona 2** (50 min | Contínuo)
 12. **Intervalado Clássico de VO2 Máximo 5x1000m** (55 min | Intervalado)
 13. **Tempo Run no Limiar de Lactato 25 min** (50 min | Contínuo)
@@ -56,7 +55,7 @@ Em conformidade com as boas práticas da fisiologia do exercício e feedback de 
 19. **Tempo Run Fracionado 3x8 min no Limiar** (55 min | Intervalado)
 20. **Longão Progressivo com Fast Finish 14 km** (80 min | Longo)
 
-### Nível Avançado (Foco em Performance, Duplo Limiar e Pace de Prova)
+### Nível Avançado (10 Treinos — Foco em Performance, Duplo Limiar e Pace de Prova)
 21. **Intervalado Norueguês de Duplo Limiar 4x2000m** (65 min | Intervalado)
 22. **Tiros de VO2 Máximo Severo em Pista 10x800m** (65 min | Intervalado)
 23. **Bloco Específico de Pace de Maratona 18 km** (95 min | Longo)
@@ -72,10 +71,10 @@ Em conformidade com as boas práticas da fisiologia do exercício e feedback de 
 
 ## 4. Integração na Interface Gráfica (`WorkoutCatalogTab.jsx`)
 
-A aba **Catálogo de Treinos** no Dashboard foi aprimorada e agora apresenta visualmente:
+A aba **Catálogo de Treinos** no Dashboard foi otimizada para apresentar visualmente os 30 treinos com todos os seus atributos:
 - Badge de tempo de duração (`total_duration_minutes`).
 - Bloco destacado com as três fases do treino (`🔥 Aquecimento`, `🎯 Principal`, `🧘 Volta à Calma`).
-- Indicação de `🔬 Objetivo Biológico` em cada card, enriquecendo o entendimento do corredor sobre o porquê de cada estímulo na sua periodização.
+- Indicação de `🔬 Objetivo Biológico` em cada card, permitindo ao corredor compreender a fisiologia por trás de cada estímulo na sua periodização.
 
 ---
 
