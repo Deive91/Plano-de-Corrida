@@ -395,44 +395,21 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
       case 'LONG':
         day.distance = Math.max(2, longKm);
         day.targetPace = longPace;
-        if (level === 'beginner') {
-          day.details = `Estratégia Run-Walk-Run: ${day.distance} km totais. Corra 5 minutos, caminhe 1 minuto. Repita até acabar.`;
-        } else if (level === 'advanced') {
-          day.details = `Longão de ${day.distance} km. Faça os últimos 3 km no ritmo exato da prova alvo (Tempo Run).`;
-        } else {
-          day.details = `Corrida longa de ${day.distance} km em ritmo confortável e constante.`;
-        }
+        day.details = `Corrida longa de endurance (${day.distance} km) focada em desenvolvimento da capacidade aeróbia base e resistência mental.`;
         day.warmup = lightWarmup;
         day.cooldown = lightCooldown;
         break;
       case 'EASY':
         day.distance = Math.max(1, perRunKm);
         day.targetPace = easyPace;
-        day.details = `Corrida leve de ${day.distance} km — mantenha um ritmo onde consiga conversar.`;
+        day.details = `Corrida aeróbica contínua de estabilização (${day.distance} km) em ritmo estritamente confortável (Zona 1/Zona 2).`;
         day.warmup = lightWarmup;
         day.cooldown = lightCooldown;
         break;
       case 'INTERVAL': {
-        const isStrongWeek = weekNumber % 2 !== 0; // Semanas ímpares = fortes
         day.distance = Math.max(1, Math.round(perRunKm * 0.8 * 10) / 10);
         day.targetPace = intervalPace;
-        
-        if (level === 'beginner') {
-          day.details = isStrongWeek
-            ? `Fartlek (Forte): ${Math.round(day.distance)} km totais. Alterne 2 min de corrida rápida com 1 min de caminhada.`
-            : `Fartlek (Moderado): ${Math.round(day.distance)} km totais. Alterne 1 min de corrida forte com 2 min de caminhada.`;
-        } else if (level === 'advanced') {
-          const reps = Math.min(6, Math.max(3, Math.round(day.distance / 1.0)));
-          day.details = isStrongWeek
-            ? `${reps + 2}x 1000m (Tiros no limite) + 400m de trote para recuperar.`
-            : `${reps}x 1000m (Tiros de manutenção) + 400m de trote para recuperar.`;
-        } else {
-          const reps = Math.min(10, Math.max(3, Math.round(day.distance / 0.4)));
-          day.details = isStrongWeek
-            ? `${reps + 2}x 400m muito fortes + 200m de trote de recuperação.`
-            : `${reps}x 400m ritmo firme e controlado + 200m de trote de recuperação.`;
-        }
-        
+        day.details = `Sessão intervalada de alta intensidade focada em VO2 máximo, economia de corrida e tolerância lática (${day.distance} km totais).`;
         day.warmup = heavyWarmup;
         day.cooldown = heavyCooldown;
         break;
@@ -440,234 +417,51 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
       case 'TEMPO':
         day.distance = Math.max(1, Math.round(perRunKm * 1.1 * 10) / 10);
         day.targetPace = tempoPace;
-        day.details = `${day.distance} km no seu limiar anaeróbico (desconforto alto, mas controlado).`;
+        day.details = `Treino contínuo ou fracionado no limiar de lactato (${day.distance} km totais) para elevação da sustentação de ritmo moderado-forte.`;
         day.warmup = heavyWarmup;
         day.cooldown = heavyCooldown;
         break;
       case 'REST':
         day.distance = 0;
         day.targetPace = null;
-        day.details = 'Descanso absoluto ou caminhada/yoga extremamente leve.';
+        day.details = 'Descanso passivo completo ou caminhada leve para recuperação sistêmica e miofascial.';
         day.warmup = null;
         day.cooldown = null;
         break;
       case 'STRENGTH':
         day.distance = 0;
         day.targetPace = null;
-        if (gender === 'F') {
-          if (level === 'advanced') {
-            day.details = `[QUEBRAR PADRÃO - PREVENÇÃO FEMININA]
-[AQUECIMENTO]
-• 400m corrida
-• Mobilidade de Quadril e Tornozelo
-
-[ATIVAÇÃO GLÚTEA] (Round 2)
-• 15 Elevações Pélvicas (Ponte)
-• 12 Abduções com elástico (Clamshells)
-• 10 Agachamentos
-
-[PARTE TÉCNICA - ESTABILIDADE] (4 Séries - Descanso 1:30s)
-• 10 Afundos búlgaros (cada perna)
-• 10 Stiff Unilateral
-• 6 Barras australianas
-• 30s Prancha lateral (cada lado)
-
-[TREINO 5 ROUNDS] (Descanso 1m)
-• 200m Corrida
-• 10 Burpees
-• 20 Agachamentos com salto leve
-• 15 Remadas curvadas (ou elástico)
-• 20m Shuttle Run (Tiro de vai-e-vem c/ peso)
-
-[FINALIZADOR]
-• 15 Abdominais Remador
-• 20 Escaladores cruzados
-• 100m Corrida`;
-          } else if (level === 'intermediate') {
-            day.details = `[QUEBRAR PADRÃO - PREVENÇÃO FEMININA]
-[AQUECIMENTO]
-• 200m corrida
-• Mobilidade de Quadril
-
-[ATIVAÇÃO GLÚTEA] (Round 2)
-• 12 Elevações Pélvicas
-• 10 Abduções com elástico
-• 8 Agachamentos
-
-[PARTE TÉCNICA - ESTABILIDADE] (3 Séries - Descanso 1:30s)
-• 8 Afundos búlgaros (cada perna)
-• 8 Stiff Unilateral
-• 6 Barras australianas
-• 20s Prancha lateral (cada lado)
-
-[TREINO 4 ROUNDS] (Descanso 1m)
-• 200m Corrida
-• 8 Burpees adaptados
-• 15 Agachamentos
-• 12 Remadas com elástico
-• 20m Shuttle Run (Tiro de vai-e-vem)
-
-[FINALIZADOR]
-• 12 Abdominais Remador
-• 15 Escaladores
-• 100m Corrida`;
-          } else {
-            // Beginner (Amarelo)
-            day.details = `[QUEBRAR PADRÃO - PREVENÇÃO FEMININA]
-[AQUECIMENTO]
-• 100m corrida
-• Mobilidade Articular
-
-[ATIVAÇÃO GLÚTEA] (Round 2)
-• 10 Elevações Pélvicas
-• 8 Ostras (Deitada de lado)
-• 5 Agachamentos lentos
-
-[PARTE TÉCNICA - ESTABILIDADE] (2 Séries - Descanso 1:30s)
-• 8 Afundos alternados (apoiada na parede)
-• 10 Elevações de quadril com 1 perna
-• 15s Prancha
-• 15s Prancha lateral (com joelho no chão)
-
-[TREINO 3 ROUNDS] (Descanso 1m)
-• 100m Corrida
-• 5 Burpees adaptados (sem salto)
-• 10 Agachamentos na cadeira
-• 10 Remadas na porta (com lençol ou elástico)
-• 10m Shuttle Run (Tiro de vai-e-vem)
-
-[FINALIZADOR]
-• 10 Abdominais curtos
-• 10 Escaladores lentos
-• 100m Corrida`;
-          }
-        } else {
-          // MALE
-          if (level === 'advanced') {
-            day.details = `[QUEBRAR PADRÃO]
-[AQUECIMENTO]
-• 400m corrida
-• Mobilidade
-
-[AQUECIMENTO 2] (Round 2)
-• 10 Agachamentos
-• 10 Flexões
-• 5 Barras
-
-[PARTE TÉCNICA] (4 Séries - Descanso 1:30s)
-• 6 Barras
-• 10 Flexões com toque no ombro
-• 12 Afundos
-• 20s Prancha
-
-[TREINO 5 ROUNDS] (Descanso 1m)
-• 200m Corrida
-• 6 Barras australianas
-• 10 Burpees (Sugado s/ flexão)
-• 20 Agachamentos
-• 20m Shuttle Run (Tiro de vai-e-vem c/ peso)
-
-[FINALIZADOR]
-• 15 Abdominais Remador
-• 20 Flexões com alternação dos joelhos
-• 100m Corrida`;
-          } else if (level === 'intermediate') {
-            day.details = `[QUEBRAR PADRÃO]
-[AQUECIMENTO]
-• 200m corrida
-• Mobilidade
-
-[AQUECIMENTO 2] (Round 2)
-• 8 Agachamentos
-• 8 Flexões
-• 3 Barras
-
-[PARTE TÉCNICA] (3 Séries - Descanso 1:30s)
-• 4 Barras
-• 8 Flexões com toque no ombro
-• 10 Afundos
-• 20s Prancha
-
-[TREINO 4 ROUNDS] (Descanso 1m)
-• 200m Corrida
-• 4 Barras australianas
-• 8 Burpees (Sugado s/ flexão)
-• 15 Agachamentos
-• 20m Shuttle Run (Tiro de vai-e-vem c/ peso)
-
-[FINALIZADOR]
-• 12 Abdominais Remador
-• 15 Flexões com alternação dos joelhos
-• 100m Corrida`;
-          } else {
-            // Beginner (Amarelo)
-            day.details = `[QUEBRAR PADRÃO]
-[AQUECIMENTO]
-• 100m corrida
-• Mobilidade
-
-[AQUECIMENTO 2] (Round 2)
-• 5 Agachamentos
-• 5 Flexões (joelhos no chão)
-• 3 Barras australianas (ou puxada)
-
-[PARTE TÉCNICA] (2 Séries - Descanso 1:30s)
-• 6 Flexões com toque no ombro (joelhos no chão)
-• 8 Afundos
-• 15s Prancha
-
-[TREINO 3 ROUNDS] (Descanso 1m)
-• 100m Corrida
-• 3 Barras australianas
-• 5 Burpees adaptados (sem salto)
-• 10 Agachamentos
-• 10m Shuttle Run (Tiro de vai-e-vem)
-
-[FINALIZADOR]
-• 10 Abdominais Remador
-• 10 Flexões (joelhos no chão)
-• 100m Corrida`;
-          }
-        }
+        day.isOptional = true;
+        day.workoutTitle = 'Treino de Fortalecimento e Mobilidade (Opcional)';
+        day.details = `Treino opcional de fortalecimento muscular funcional e mobilidade articular específico para corredores de rua.\n\n🔥 Aquecimento: 5 min de mobilidade articular de tornozelos, joelhos e quadril com giros dinâmicos.\n🎯 Principal: 3 a 4 séries de exercícios funcionais específicos (agachamento livre, afundos, ponte de glúteo, prancha frontal e lateral) focando na estabilidade do core, prevenção de lesões propulsivas e proteção articular sem sobrecarga axial excessiva.\n🧘 Volta à Calma: alongamento estático leve de cadeia posterior (panturrilhas e isquiotibiais) e respiração diafragmática.`;
         day.warmup = null;
         day.cooldown = null;
         break;
       case 'HILL': {
-        const isStrongWeek = weekNumber % 2 !== 0; // Semanas ímpares = fortes
         day.distance = 0; 
         day.targetPace = null;
-        
-        if (level === 'advanced') {
-          day.details = isStrongWeek 
-            ? 'Treino Forte: 15x 30s de tiro máximo em ladeira muito íngreme. Volta trotando.'
-            : 'Treino Moderado: 10x 30s em ladeira média. Volta trotando leve.';
-        } else {
-          day.details = isStrongWeek
-            ? 'Treino Forte: 10x 20s de tiro em subida. Volta descendo devagar.'
-            : 'Treino Moderado: 6x 20s em ritmo firme na subida. Volta descendo devagar.';
-        }
-        
+        day.details = 'Treino específico de repetições em subida (Hill Repeats) para ganho de potência propulsiva e força muscular específica de corrida.';
         day.warmup = heavyWarmup;
-        day.cooldown = '5 min de caminhada plana.';
+        day.cooldown = '5 a 10 min de trote regenerativo ou caminhada no plano para remoção de metabólitos.';
         break;
       }
       case 'CROSS_TRAINING':
         day.distance = 0;
         day.targetPace = null;
         if (age >= 60) {
-          day.details = '40 min de Natação ou Hidroginástica para poupar as articulações.';
+          day.details = '40 min de Natação ou Hidroginástica em Zona 1/2 para estimulação aeróbica de baixo impacto articular.';
         } else {
-          day.details = '40 min de Ciclismo, Natação ou Elíptico em ritmo Zona 2.';
+          day.details = '40 min de Ciclismo, Natação ou Elíptico em Zona 2 constante para manutenção cardiovascular sem impacto mecânico de corrida.';
         }
         day.warmup = null;
-        day.cooldown = 'Mobilidade articular.';
+        day.cooldown = 'Mobilidade articular e alongamento leve.';
         break;
       default:
         day.targetPace = null;
         break;
     }
 
-    // Enriquecer com o catálogo oficial de treinos
+    // Enriquecer e sobrescrever com o catálogo científico de treinos (90 treinos oficiais)
     if (day.type && day.type !== 'REST') {
       if (day.type === 'STRENGTH' || day.dayIndex === 0) {
         day.isOptional = true;
@@ -681,16 +475,21 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
           day.physiologicalGoal = catalogInfo.physiological_goal || null;
           day.totalDurationMinutes = catalogInfo.total_time_minutes || catalogInfo.total_duration_minutes || null;
           
-          let extraInfo = `\n\n💡 Protocolo Específico (${catalogInfo.title}): ${catalogInfo.description || (phasesObj && phasesObj.main_set ? phasesObj.main_set : '')}`;
+          let detailsText = `${catalogInfo.title}\n`;
+          if (day.distance > 0) {
+            detailsText += `Volume Estimado: ${day.distance} km | Duração Total: ${day.totalDurationMinutes || 40} min\n\n`;
+          } else {
+            detailsText += `Duração Total: ${day.totalDurationMinutes || 40} min\n\n`;
+          }
           if (phasesObj) {
-            extraInfo += `\n🔥 Aquecimento: ${phasesObj.warmup}`;
-            extraInfo += `\n🎯 Principal: ${phasesObj.main_set}`;
-            extraInfo += `\n🧘 Volta à Calma: ${phasesObj.cooldown}`;
+            detailsText += `🔥 Aquecimento: ${phasesObj.warmup}\n`;
+            detailsText += `🎯 Principal: ${phasesObj.main_set}\n`;
+            detailsText += `🧘 Volta à Calma: ${phasesObj.cooldown}\n\n`;
           }
           if (catalogInfo.physiological_goal) {
-            extraInfo += `\n🔬 Objetivo Biológico: ${catalogInfo.physiological_goal}`;
+            detailsText += `🔬 Objetivo Biológico: ${catalogInfo.physiological_goal}`;
           }
-          day.details = `${day.details}${extraInfo}`;
+          day.details = detailsText.trim();
         }
       }
     }

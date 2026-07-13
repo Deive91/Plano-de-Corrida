@@ -1,26 +1,43 @@
 /**
  * ============================================================================
  * CATÁLOGO OFICIAL DE TREINOS PARA CORRIDA — PLANO DE CORRIDA APP
- * Catálogo atualmente limpo/vazio por solicitação do usuário.
+ * Banco de dados científico completo com 90 treinos periodizados (v2.4).
  * ============================================================================
  */
+import apiCatalog from './workouts_api_catalog.json';
+
+// Mapeamento de workout_type para os tipos internos do motor da aplicação
+const TYPE_MAPPING = {
+  'continuo': 'EASY',
+  'regenerativo': 'EASY',
+  'longo': 'LONG',
+  'intervalado': 'INTERVAL',
+  'fartlek': 'INTERVAL',
+  'tempo_run': 'TEMPO',
+  'hill_repeats': 'HILL'
+};
+
+const normalizedWorkouts = (apiCatalog.workouts || []).map(w => ({
+  ...w,
+  type: TYPE_MAPPING[w.workout_type] || 'EASY',
+  description: w.structure && w.structure.main_set ? w.structure.main_set : ''
+}));
 
 export const WORKOUT_CATALOG = {
-  beginner: [],
-  intermediate: [],
-  advanced: []
+  beginner: normalizedWorkouts.filter(w => w.level === 'iniciante'),
+  intermediate: normalizedWorkouts.filter(w => w.level === 'intermediario'),
+  advanced: normalizedWorkouts.filter(w => w.level === 'avancado')
 };
 
 /**
  * Retorna os detalhes de um treino específico do catálogo pelo nível do usuário,
  * tipo de treino pretendido pela semana (EASY, LONG, etc.), número da semana e dia.
- * Retorna null se não houver treinos no catálogo.
  */
 export function getCatalogWorkout(level, type, weekNumber, dayIndex) {
   const list = WORKOUT_CATALOG[level] || WORKOUT_CATALOG.beginner;
   if (!list || list.length === 0) return null;
   
-  const filtered = list.filter(w => w.type === type);
+  const filtered = list.filter(w => w.type === type || w.workout_type === type);
   if (filtered.length > 0) {
     const idx = (weekNumber + dayIndex) % filtered.length;
     return filtered[idx];
