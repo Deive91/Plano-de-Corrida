@@ -87,8 +87,19 @@ export default function WorkoutCatalogTab() {
       </div>
 
       {/* Lista de Treinos da Categoria Selecionada */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
-        {currentWorkouts.map((w, i) => {
+      {currentWorkouts.length === 0 ? (
+        <div className="glass-card p-8 text-center border border-white/5 my-4">
+          <span className="text-3xl block mb-2">📭</span>
+          <h4 className="font-display font-bold text-slate-300 text-base mb-1">
+            Nenhum treino no catálogo
+          </h4>
+          <p className="text-xs text-slate-500">
+            Os treinos desta categoria foram removidos ou estão sendo reestruturados.
+          </p>
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+          {currentWorkouts.map((w, i) => {
           const typeInfo = TRAINING_TYPES[w.type] || {};
           return (
             <div
@@ -144,7 +155,8 @@ export default function WorkoutCatalogTab() {
             </div>
           );
         })}
-      </div>
+        </div>
+      )}
     </div>
   );
 }
