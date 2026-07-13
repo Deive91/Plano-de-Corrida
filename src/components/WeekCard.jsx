@@ -9,15 +9,21 @@ import TrainingBadge from './TrainingBadge';
 export default function WeekCard({ week, progress, onToggleDay, isCurrentWeek, onEditDay }) {
   const [expanded, setExpanded] = useState(isCurrentWeek);
 
-  // Calcular progresso da semana
+  // Calcular progresso da semana (treinos obrigatórios vs opcionais)
   const trainingDays = week.days.filter((d) => d.type !== 'REST');
-  const completedDays = trainingDays.filter(
+  const mandatoryDays = week.days.filter((d) => d.type !== 'REST' && !d.isOptional);
+  const completedMandatory = mandatoryDays.filter(
     (d) => progress?.[week.weekNumber]?.[d.dayIndex]
   ).length;
-  const weekProgress =
-    trainingDays.length > 0
-      ? Math.round((completedDays / trainingDays.length) * 100)
-      : 0;
+  const optionalDays = week.days.filter((d) => d.isOptional);
+  const completedOptional = optionalDays.filter(
+    (d) => progress?.[week.weekNumber]?.[d.dayIndex]
+  ).length;
+
+  const totalRelevant = mandatoryDays.length > 0 ? mandatoryDays.length : trainingDays.length;
+  const weekProgress = totalRelevant > 0
+    ? Math.min(100, Math.round(((completedMandatory + (completedOptional * 0.5)) / totalRelevant) * 100))
+    : 0;
 
   return (
     <div
@@ -108,6 +114,18 @@ export default function WeekCard({ week, progress, onToggleDay, isCurrentWeek, o
 
                   {/* Badge de tipo */}
                   <TrainingBadge type={day.type} size="sm" />
+
+                  {/* Badge Opcional e Título do Catálogo */}
+                  {day.isOptional && (
+                    <span className="text-xs font-bold px-2 py-0.5 rounded-md bg-amber-500/20 text-amber-400 border border-amber-500/30 flex items-center gap-1">
+                      ⭐ Opcional
+                    </span>
+                  )}
+                  {day.workoutTitle && (
+                    <span className="hidden md:inline-block text-xs font-semibold text-slate-300 bg-white/5 px-2 py-0.5 rounded-md border border-white/10 truncate max-w-[220px]" title={day.workoutTitle}>
+                      {day.workoutTitle}
+                    </span>
+                  )}
 
                   {/* Botão Editar e Distância */}
                   <div className="ml-auto flex items-center gap-3">

@@ -1,5 +1,5 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
-import { Calendar, List, Target, Camera, Download, Lock, Crown } from 'lucide-react';
+import { Calendar, List, Target, Camera, Download, Lock, Crown, BookOpen } from 'lucide-react';
 import Header from '../components/Header';
 import ProgressBar from '../components/ProgressBar';
 import StatCard from '../components/StatCard';
@@ -7,6 +7,7 @@ import WeekCard from '../components/WeekCard';
 import CalendarView from '../components/CalendarView';
 import EditDayModal from '../components/EditDayModal';
 import WomensHealthTab from '../components/WomensHealthTab';
+import WorkoutCatalogTab from '../components/WorkoutCatalogTab';
 import { calculateProgress } from '../lib/storage';
 import { TRAINING_TYPES } from '../lib/trainingEngine';
 import { useAuth } from '../context/AuthContext';
@@ -322,6 +323,17 @@ export default function DashboardPage({ plan, onToggleDay, onUpdateDay, onReset 
                 <Calendar size={15} />
                 Calendário
               </button>
+              <button
+                onClick={() => setViewMode('catalog')}
+                className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                  viewMode === 'catalog'
+                    ? 'bg-amber-500/15 text-amber-400'
+                    : 'text-slate-500 hover:text-slate-300'
+                }`}
+              >
+                <BookOpen size={15} />
+                Catálogo (90)
+              </button>
               {(plan.runner.gender === 'F' || user?.gender === 'F') && (
                 <button
                   onClick={() => setViewMode('womens_health')}
@@ -361,6 +373,10 @@ export default function DashboardPage({ plan, onToggleDay, onUpdateDay, onReset 
 
         {viewMode === 'womens_health' && (
           <WomensHealthTab />
+        )}
+
+        {viewMode === 'catalog' && (
+          <WorkoutCatalogTab />
         )}
 
         {/* Legenda de tipos de treino */}

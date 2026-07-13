@@ -17,6 +17,8 @@
  *  - STRENGTH → Treino de Força / Mobilidade
  */
 
+import { getCatalogWorkout } from './workoutCatalog';
+
 // ---- Constantes ----
 
 export const TRAINING_TYPES = {
@@ -241,7 +243,9 @@ function buildWeekTemplate(trainingDays, includeStrength, level, weekNumber, isR
     if (recDays >= 3) week[3].type = 'EASY';    // Quinta
     // Preencher resto com descanso
     week.forEach((d) => { if (!d.type) d.type = 'REST'; });
-    week[0].type = 'STRENGTH'; // Forçar segunda-feira com treino físico
+    week[0].type = 'STRENGTH'; // Forçar segunda-feira com treino físico opcional
+    week[0].isOptional = true;
+    week[0].dayName = 'Segunda (Opcional)';
     return week;
   }
 
@@ -251,14 +255,18 @@ function buildWeekTemplate(trainingDays, includeStrength, level, weekNumber, isR
     week[3].type = 'EASY';    // Quinta
     week[5].type = 'EASY';    // Sábado (corrida curta pré-prova)
     week.forEach((d) => { if (!d.type) d.type = 'REST'; });
-    week[0].type = 'STRENGTH'; // Forçar segunda-feira com treino físico
+    week[0].type = 'STRENGTH'; // Forçar segunda-feira com treino físico opcional
+    week[0].isOptional = true;
+    week[0].dayName = 'Segunda (Opcional)';
     return week;
   }
 
   // ---- Distribuição normal ----
   // Domingo sempre será Longão
   week[6].type = 'LONG';
-  week[0].type = 'STRENGTH'; // Forçar segunda-feira com treino físico
+  week[0].type = 'STRENGTH'; // Forçar segunda-feira com treino físico opcional
+  week[0].isOptional = true;
+  week[0].dayName = 'Segunda (Opcional)';
 
   if (trainingDays >= 2) week[1].type = 'EASY';      // Terça - Leve
   if (trainingDays >= 3) week[3].type = 'INTERVAL';   // Quinta - Intervalado
@@ -657,6 +665,20 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
       default:
         day.targetPace = null;
         break;
+    }
+
+    // Enriquecer com o catálogo oficial de treinos
+    if (day.type && day.type !== 'REST') {
+      if (day.type === 'STRENGTH' || day.dayIndex === 0) {
+        day.isOptional = true;
+        day.workoutTitle = 'Treino de Fortalecimento e Mobilidade (Opcional)';
+      } else {
+        const catalogInfo = getCatalogWorkout(level, day.type, weekNumber, day.dayIndex);
+        if (catalogInfo) {
+          day.workoutTitle = catalogInfo.title;
+          day.details = `${day.details}\n\n💡 Protocolo Específico (${catalogInfo.title}): ${catalogInfo.description}`;
+        }
+      }
     }
   });
 
