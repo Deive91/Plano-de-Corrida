@@ -107,12 +107,39 @@ export default function WorkoutCatalogTab() {
                     {typeInfo.name || w.type}
                   </span>
                 </div>
-                <h4 className="font-display font-bold text-slate-100 text-base sm:text-lg mb-1">
-                  {w.title}
-                </h4>
-                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                <div className="flex items-center justify-between gap-2 mb-1">
+                  <h4 className="font-display font-bold text-slate-100 text-base sm:text-lg">
+                    {w.title}
+                  </h4>
+                  {w.total_duration_minutes && (
+                    <span className="text-xs font-semibold bg-emerald-500/20 text-emerald-300 px-2.5 py-1 rounded-full whitespace-nowrap">
+                      ⏱️ {w.total_duration_minutes} min
+                    </span>
+                  )}
+                </div>
+                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mb-3">
                   {w.description}
                 </p>
+
+                {w.phases && (
+                  <div className="mt-2 space-y-1.5 bg-black/20 p-3 rounded-xl border border-white/5 text-xs text-slate-300">
+                    <div>
+                      <span className="text-amber-400 font-bold">🔥 Aquecimento:</span> {w.phases.warmup}
+                    </div>
+                    <div>
+                      <span className="text-emerald-400 font-bold">🎯 Principal:</span> {w.phases.main_set}
+                    </div>
+                    <div>
+                      <span className="text-cyan-400 font-bold">🧘 Volta à Calma:</span> {w.phases.cooldown}
+                    </div>
+                  </div>
+                )}
+
+                {w.physiological_goal && (
+                  <div className="mt-2 pt-2 border-t border-white/5 text-xs text-slate-400">
+                    <span className="text-purple-400 font-semibold">🔬 Objetivo Biológico:</span> {w.physiological_goal}
+                  </div>
+                )}
               </div>
             </div>
           );

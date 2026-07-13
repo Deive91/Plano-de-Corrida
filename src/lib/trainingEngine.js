@@ -676,7 +676,20 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
         const catalogInfo = getCatalogWorkout(level, day.type, weekNumber, day.dayIndex);
         if (catalogInfo) {
           day.workoutTitle = catalogInfo.title;
-          day.details = `${day.details}\n\n💡 Protocolo Específico (${catalogInfo.title}): ${catalogInfo.description}`;
+          day.phases = catalogInfo.phases || null;
+          day.physiologicalGoal = catalogInfo.physiological_goal || null;
+          day.totalDurationMinutes = catalogInfo.total_duration_minutes || null;
+          
+          let extraInfo = `\n\n💡 Protocolo Específico (${catalogInfo.title}): ${catalogInfo.description || ''}`;
+          if (catalogInfo.phases) {
+            extraInfo += `\n🔥 Aquecimento: ${catalogInfo.phases.warmup}`;
+            extraInfo += `\n🎯 Principal: ${catalogInfo.phases.main_set}`;
+            extraInfo += `\n🧘 Volta à Calma: ${catalogInfo.phases.cooldown}`;
+          }
+          if (catalogInfo.physiological_goal) {
+            extraInfo += `\n🔬 Objetivo Biológico: ${catalogInfo.physiological_goal}`;
+          }
+          day.details = `${day.details}${extraInfo}`;
         }
       }
     }
