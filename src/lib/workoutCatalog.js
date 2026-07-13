@@ -23,10 +23,17 @@ const normalizedWorkouts = (apiCatalog.workouts || []).map(w => ({
   description: w.structure && w.structure.main_set ? w.structure.main_set : ''
 }));
 
+const beginnerList = normalizedWorkouts.filter(w => w.level === 'iniciante');
+const intermediateList = normalizedWorkouts.filter(w => w.level === 'intermediario');
+const advancedList = normalizedWorkouts.filter(w => w.level === 'avancado');
+
 export const WORKOUT_CATALOG = {
-  beginner: normalizedWorkouts.filter(w => w.level === 'iniciante'),
-  intermediate: normalizedWorkouts.filter(w => w.level === 'intermediario'),
-  advanced: normalizedWorkouts.filter(w => w.level === 'avancado')
+  beginner: beginnerList,
+  iniciante: beginnerList,
+  intermediate: intermediateList,
+  intermediario: intermediateList,
+  advanced: advancedList,
+  avancado: advancedList
 };
 
 /**
