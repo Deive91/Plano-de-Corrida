@@ -4,391 +4,1171 @@
       "id": 1,
       "level": "iniciante",
       "title": "Adaptação Articular Run-Walk 1:1",
-      "total_duration_minutes": 30,
+      "total_time_minutes": 30,
       "workout_type": "continuo",
-      "phases": {
-        "warmup": "5 minutos de caminhada rápida em PSE 3 (60% FCmáx) com rotação de tornozelos e quadril.",
-        "main_set": "10 séries de: 1 minuto trote leve em PSE 5 (Zona 2, 65-70% FCmáx) alternado com 1 minuto de caminhada ativa em PSE 3 para recuperação.",
-        "cooldown": "5 minutos de caminhada desacelerando gradualmente e alongamento estático de panturrilhas."
+      "structure": {
+        "warmup": "5 min caminhada rápida em PSE 3 (Z1/Z2 baixa) com giros de tornozelo e rotação de quadril.",
+        "main_set": "10 repetições de [1 min trote leve Z2 (PSE 4-5, 65-70% FCmáx) + 1 min caminhada ativa Z1 (PSE 2-3)].",
+        "cooldown": "5 min caminhada desacelerando gradualmente e alongamentos estáticos de panturrilha."
       },
-      "physiological_goal": "Aumento da capacidade aeróbia base e fortalecimento de tendões e ligamentos para absorção de impacto."
+      "physiological_goal": "Aumento da tolerância ao impacto articular e transição gradual de fibras tipo I para o gesto de corrida."
     },
     {
       "id": 2,
       "level": "iniciante",
       "title": "Evolução Contínua Run-Walk 2:1",
-      "total_duration_minutes": 35,
+      "total_time_minutes": 33,
       "workout_type": "continuo",
-      "phases": {
-        "warmup": "5 minutos de caminhada leve em PSE 3 progressiva até trote suave.",
-        "main_set": "8 séries de: 2 minutos de corrida leve em Zona 2 (PSE 5) alternados com 1 minuto de caminhada de recuperação ativa em PSE 3.",
-        "cooldown": "6 minutos de caminhada regenerativa com respiração diafragmática profunda."
+      "structure": {
+        "warmup": "5 min caminhada rápida progressiva e mobilidade de joelhos.",
+        "main_set": "8 repetições de [2 min trote confortável Z2 (PSE 5) + 1 min caminhada de recuperação Z1 (PSE 3)].",
+        "cooldown": "4 min caminhada leve e respiração diafragmática."
       },
-      "physiological_goal": "Desenvolvimento da eficiência mitocondrial e progressão de tolerância ao tempo contínuo de corrida."
+      "physiological_goal": "Expansão da densidade capilar periférica e aumento do tempo de sustentação em regime aeróbio Z2."
     },
     {
       "id": 3,
       "level": "iniciante",
       "title": "Consolidação Aeróbica Run-Walk 3:1",
-      "total_duration_minutes": 37,
+      "total_time_minutes": 35,
       "workout_type": "continuo",
-      "phases": {
-        "warmup": "5 minutos de caminhada acelerada e educativos básicos de corrida (skipping alto e anfersen curto).",
-        "main_set": "7 séries de: 3 minutos de corrida em ritmo conversacional Zona 2 (PSE 5-6) com 1 minuto de caminhada para controle de frequência cardíaca.",
-        "cooldown": "4 minutos de caminhada lenta e alongamento de membros inferiores."
+      "structure": {
+        "warmup": "5 min caminhada rápida e educativos de corrida leves (skipping baixo).",
+        "main_set": "7 repetições de [3 min trote ritmo de conversa Z2 (PSE 5) + 1 min caminhada ativa Z1].",
+        "cooldown": "2 min caminhada e alongamento estático de isquiotibiais."
       },
-      "physiological_goal": "Expansão do volume sistólico e consolidação da economia de corrida aeróbica."
+      "physiological_goal": "Aprimoramento da eficiência mitocondrial e estabilização de cadência em fadiga inicial."
     },
     {
       "id": 4,
       "level": "iniciante",
       "title": "Iniciação ao Trote Contínuo 15 min",
-      "total_duration_minutes": 30,
+      "total_time_minutes": 30,
       "workout_type": "continuo",
-      "phases": {
-        "warmup": "8 minutos de caminhada dinâmica progressiva, elevando a FC para a Zona 1 superior.",
-        "main_set": "15 minutos de corrida contínua ininterrupta em Zona 2 (PSE 5, ritmo de conversa, aprox. 65-72% FCmáx).",
-        "cooldown": "7 minutos de caminhada regenerativa para retorno à frequência cardíaca de repouso."
+      "structure": {
+        "warmup": "8 min caminhada dinâmica elevando gradualmente a FC até Z1 superior.",
+        "main_set": "15 min de corrida contínua sem paradas em Z2 (PSE 5, ritmo onde se consegue falar frases inteiras).",
+        "cooldown": "7 min caminhada regenerativa para descompressão."
       },
-      "physiological_goal": "Superação da barreira de continuidade aeróbica e estabilização de cadência em 170-175 SPM."
+      "physiological_goal": "Superação da barreira de continuidade aeróbica e controle do débito cardíaco contínuo."
     },
     {
       "id": 5,
       "level": "iniciante",
-      "title": "Treino de Cadência e Passada Curta",
-      "total_duration_minutes": 32,
+      "title": "Cadência Alta e Passada Curta 180 SPM",
+      "total_time_minutes": 32,
       "workout_type": "continuo",
-      "phases": {
-        "warmup": "5 minutos de trote muito leve (PSE 4) com exercícios de mobilidade de tornozelo.",
-        "main_set": "20 minutos contínuos em Zona 2 (PSE 5), inserindo a cada 3 minutos 45 segundos com foco exclusivo em cadência alta (alvo de 180 passos por minuto) com passada curta e contato rápido com o solo.",
-        "cooldown": "7 minutos de trote desacelerando até caminhada e soltura miofascial."
+      "structure": {
+        "warmup": "6 min trote super leve Z1 e exercícios de mobilidade de tornozelo.",
+        "main_set": "20 min contínuos Z2 (PSE 5), aplicando a cada 4 min um bloco de 1 min com foco exclusivo em cadência de 180 passos/min com passada curta.",
+        "cooldown": "6 min caminhada e soltura miofascial."
       },
-      "physiological_goal": "Redução da força de impacto articular (overstriding) e aprimoramento neuromuscular da cadência."
+      "physiological_goal": "Redução do impacto articular por eliminação de overstriding e otimização neuromuscular da cadência."
     },
     {
       "id": 6,
       "level": "iniciante",
       "title": "Fartlek Lúdico de Adaptação",
-      "total_duration_minutes": 34,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "6 minutos de trote leve em Zona 1/Zona 2 + mobilidade quadril.",
-        "main_set": "6 séries de: 1 minuto e 30 segundos em ritmo moderado (Zona 3, PSE 6-7) seguidos de 2 minutos de trote muito leve em Zona 1 (PSE 4) para recuperação.",
-        "cooldown": "7 minutos de caminhada regenerativa com alongamento de cadeia posterior."
+      "total_time_minutes": 34,
+      "workout_type": "fartlek",
+      "structure": {
+        "warmup": "7 min trote suave Z1/Z2 com rotação de braços e tronco.",
+        "main_set": "6 repetições de [1:30 min corrida moderada Z3 (PSE 6-7) + 2:00 min trote leve recuperação Z1 (PSE 4)].",
+        "cooldown": "6 min caminhada regenerativa e alongamento geral."
       },
-      "physiological_goal": "Introdução controlada à variação de frequência cardíaca e recrutamento de fibras musculares do tipo IIa."
+      "physiological_goal": "Recrutamento inicial de fibras musculares IIa e adaptação cardiovascular a variações de ritmo."
     },
     {
       "id": 7,
       "level": "iniciante",
       "title": "Tiros Curtos Neuromusculares na Reta",
-      "total_duration_minutes": 33,
+      "total_time_minutes": 33,
       "workout_type": "intervalado",
-      "phases": {
-        "warmup": "10 minutos de trote aeróbico Zona 2 + 3 educativos de corrida de 30 metros cada.",
-        "main_set": "6 repetições de 100 metros (aprox. 20-25 segundos) em ritmo forte e controlado (PSE 7-8, foco na postura alta e braçada ativa), com 1 minuto e 30 segundos de caminhada completa de recuperação entre cada tiro.",
-        "cooldown": "8 minutos de trote regenerativo muito leve na Zona 1 (PSE 3-4)."
+      "structure": {
+        "warmup": "10 min trote leve Z2 + 3 educativos (skipping, anfersen, hop).",
+        "main_set": "6 repetições de 100m em ritmo forte controlado (Z4, PSE 7-8, foco em postura alta), com 1:30 min de caminhada completa entre os tiros.",
+        "cooldown": "8 min trote muito leve Z1 para remoção de metabólitos."
       },
-      "physiological_goal": "Melhoria da economia de corrida, recrutamento de unidades motoras e mecânica de passada sem acúmulo excessivo de lactato."
+      "physiological_goal": "Melhoria da economia de corrida, mecânica de passada e recrutamento de unidades motoras sem acidose severa."
     },
     {
       "id": 8,
       "level": "iniciante",
       "title": "Treino de Força em Rampa Suave",
-      "total_duration_minutes": 35,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "10 minutos de trote contínuo em terreno plano em Zona 2 (PSE 5).",
-        "main_set": "5 repetições de subida suave de 30 segundos com inclinação de 4% a 6% em ritmo moderado-forte (PSE 7, tronco levemente inclinado à frente), descendo caminhando lentamente (recuperação de 1 a 2 min).",
-        "cooldown": "10 minutos de trote leve no plano e alongamento de glúteos e quadríceps."
+      "total_time_minutes": 35,
+      "workout_type": "hill_repeats",
+      "structure": {
+        "warmup": "10 min trote contínuo no plano em Z2 (PSE 5).",
+        "main_set": "5 repetições de 30s subindo inclinação leve (4-6%) em ritmo moderado-forte (Z4, PSE 7), descendo caminhando lentamente (1:30 min pausa).",
+        "cooldown": "10 min trote super leve no plano e alongamento de glúteos."
       },
-      "physiological_goal": "Fortalecimento específico de quadríceps, glúteos e panturrilhas com menor impacto articular na descida."
+      "physiological_goal": "Desenvolvimento de força específica propulsiva em quadríceps e panturrilhas com baixo estresse articular de descida."
     },
     {
       "id": 9,
       "level": "iniciante",
-      "title": "Iniciação ao Limiar (Mini Tempo Run)",
-      "total_duration_minutes": 36,
-      "workout_type": "continuo",
-      "phases": {
-        "warmup": "10 minutos de trote leve Zona 2 (PSE 5) para aquecimento muscular.",
-        "main_set": "2 blocos de 6 minutos em ritmo de limiar aeróbico/moderado (Zona 3, PSE 6-7, respiração ofegante mas rítmica), com 3 minutos de trote super leve (Zona 1) entre os blocos.",
-        "cooldown": "11 minutos de caminhada/trote regressivo e alongamento geral."
+      "title": "Iniciação ao Limiar (Mini Tempo Run 2x6 min)",
+      "total_time_minutes": 36,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "10 min trote leve Z2 para ativação cardiorrespiratória.",
+        "main_set": "2 blocos de 6 min no limiar aeróbio-anaeróbio (Z3 superior, PSE 6-7, respiração ritmada), com 3 min de trote Z1 de intervalo.",
+        "cooldown": "11 min trote regressivo até caminhada e alongamentos."
       },
-      "physiological_goal": "Estimulação inicial do clearance (remoção) de lactato sanguínio e sustentação de ritmo moderado."
+      "physiological_goal": "Estímulo primário ao clearance (remoção) de lactato e tolerância mental ao ritmo sustentado."
     },
     {
       "id": 10,
       "level": "iniciante",
       "title": "Longão de Conquista Aeróbica 25 min",
-      "total_duration_minutes": 40,
+      "total_time_minutes": 40,
       "workout_type": "longo",
-      "phases": {
-        "warmup": "7 minutos de caminhada e trote progressivo em Zona 1.",
-        "main_set": "25 minutos de corrida contínua em ritmo estritamente confortável e estável na Zona 2 (PSE 5, ritmo onde é possível falar frases completas sem falta de ar).",
-        "cooldown": "8 minutos de caminhada de relaxamento e alongamento completo de membros inferiores."
+      "structure": {
+        "warmup": "7 min caminhada e transição progressiva para trote Z1.",
+        "main_set": "25 min corrida contínua estável em Z2 (PSE 5, ritmo estritamente conversacional e sem paradas).",
+        "cooldown": "8 min caminhada de relaxamento e alongamento de membros inferiores."
       },
-      "physiological_goal": "Aumento da capilarização muscular, utilização de ácidos graxos (gordura) como combustível aeróbico e resiliência mental base."
+      "physiological_goal": "Consolidação da capacidade aeróbia base, oxidação de ácidos graxos (gordura) e resiliência mental para tempo contínuo."
     },
     {
       "id": 11,
-      "level": "intermediario",
-      "title": "Volume Aeróbico de Base em Zona 2",
-      "total_duration_minutes": 50,
+      "level": "iniciante",
+      "title": "Volume Aeróbico de Base 30 min",
+      "total_time_minutes": 42,
       "workout_type": "continuo",
-      "phases": {
-        "warmup": "10 minutos de trote suave na transição Zona 1 para Zona 2.",
-        "main_set": "32 minutos de corrida contínua estável na Zona 2 pura (70-75% FCmáx, PSE 5), mantendo cadência média próxima a 180 SPM e postura do tronco ereta.",
-        "cooldown": "8 minutos de trote regenerativo em Zona 1 e alongamento estático."
+      "structure": {
+        "warmup": "6 min trote leve Z1 com mobilidade articular.",
+        "main_set": "30 min corrida contínua estável na Z2 (PSE 5, ritmo confortável), mantendo cadência regular.",
+        "cooldown": "6 min caminhada regenerativa e alongamentos estáticos."
       },
-      "physiological_goal": "Densidade mitocondrial de fibras tipo I, economia de glicogênio e fortalecimento cardiovascular sustentado."
+      "physiological_goal": "Aumento do volume sistólico e fortalecimento das estruturas musculoesqueléticas da base."
     },
     {
       "id": 12,
-      "level": "intermediario",
-      "title": "Intervalado Clássico de VO2 Máximo 5x1000m",
-      "total_duration_minutes": 55,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "15 minutos de trote em Zona 2 + 4 educativos dinâmicos e 2 acelerações de 80m.",
-        "main_set": "5 repetições de 1.000 metros em ritmo alvo de 5km (Zona 4 superior / Zona 5, PSE 8-9, 90-95% FCmáx), com 2 minutos e 30 segundos de trote muito leve de recuperação entre os tiros.",
-        "cooldown": "12 minutos de trote regenerativo em Zona 1 (PSE 3-4)."
+      "level": "iniciante",
+      "title": "Intervalado Curto de Fartlek 8x1 min",
+      "total_time_minutes": 38,
+      "workout_type": "fartlek",
+      "structure": {
+        "warmup": "8 min trote Z2 e ativação muscular.",
+        "main_set": "8 repetições de [1 min corrida moderada-forte Z3/Z4 (PSE 7) + 1:30 min caminhada/trote Z1].",
+        "cooldown": "7 min trote leve e respiração profunda."
       },
-      "physiological_goal": "Expansão direta do VO2 Máximo (consumo máximo de oxigênio), potência aeróbica e tolerância severa ao ácido lático."
+      "physiological_goal": "Adaptação do coração a variações rápidas de débito cardíaco e agilidade de passada."
     },
     {
       "id": 13,
-      "level": "intermediario",
-      "title": "Tempo Run no Limiar de Lactato 25 min",
-      "total_duration_minutes": 50,
-      "workout_type": "continuo",
-      "phases": {
-        "warmup": "15 minutos de trote em Zona 2 com progressão final nas últimas 2 minutos para aquecer o sistema cardiorrespiratório.",
-        "main_set": "25 minutos contínuos cravados no ritmo de limiar anaeróbico (Tempo Run, Zona 4, PSE 7-8, aprox. 85-88% FCmáx, ritmo confortávelmente duro).",
-        "cooldown": "10 minutos de trote leve de descompressão em Zona 1."
+      "level": "iniciante",
+      "title": "Tempo Run Fracionado 3x5 min",
+      "total_time_minutes": 40,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "10 min trote aquecimento Z2.",
+        "main_set": "3 repetições de 5 min no ritmo de limiar Z3 alto (PSE 6.5), com 2 min de trote leve Z1 entre os blocos.",
+        "cooldown": "11 min trote de volta à calma e alongamentos."
       },
-      "physiological_goal": "Elevação do limiar de lactato (ponto onde a produção supera a remoção), permitindo correr mais rápido por mais tempo sem exaustão."
+      "physiological_goal": "Aprimoramento da tolerância ao lactato com blocos curtos e pausas generosas."
     },
     {
       "id": 14,
-      "level": "intermediario",
-      "title": "Fartlek Piramidal de Velocidade",
-      "total_duration_minutes": 48,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "12 minutos de trote leve Zona 2 e mobilidade de tornozelo.",
-        "main_set": "Bloco piramidal contínuo de acelerações em Zona 4/5 (PSE 8-9) seguidas por tempos iguais de trote em Zona 1/2: 1 min forte / 1 min trote -> 2 min forte / 2 min trote -> 3 min forte / 3 min trote -> 2 min forte / 2 min trote -> 1 min forte / 1 min trote.",
-        "cooldown": "10 minutos de trote regenerativo e soltura muscular."
+      "level": "iniciante",
+      "title": "Hill Repeats Suaves 6x40s",
+      "total_time_minutes": 38,
+      "workout_type": "hill_repeats",
+      "structure": {
+        "warmup": "12 min trote no plano em Z2 até a base da ladeira.",
+        "main_set": "6 repetições de 40s em subida de 5% em intensidade forte (Z4, PSE 7.5), descendo caminhando (90s) para recuperação.",
+        "cooldown": "10 min trote leve no plano."
       },
-      "physiological_goal": "Flexibilidade metabólica, capacidade de variação e recuperação do ritmo sob fadiga em tempo real."
+      "physiological_goal": "Recrutamento neuromuscular muscular e ganho de força propulsiva sem impacto de velocidade no plano."
     },
     {
       "id": 15,
-      "level": "intermediario",
-      "title": "Hill Repeats Específicos de Força e Potência",
-      "total_duration_minutes": 45,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "15 minutos de trote aeróbico Zona 2 em terreno plano até a base da subida.",
-        "main_set": "8 repetições de 45 segundos em subida moderadamente íngreme ( inclinação de 6 a 8%) com intensidade forte e impulsão máxima (PSE 8-9, Zona 5), descendo a ladeira em trote super leve/caminhada para recuperação (90 segundos).",
-        "cooldown": "12 minutos de trote no plano e alongamento de panturrilhas."
+      "level": "iniciante",
+      "title": "Longão Progressivo Leve 35 min",
+      "total_time_minutes": 47,
+      "workout_type": "longo",
+      "structure": {
+        "warmup": "6 min caminhada/trote inicial.",
+        "main_set": "25 min corrida suave em Z2 (PSE 5) + 10 min finais ligeiramente mais firmes na Z3 baixa (PSE 6).",
+        "cooldown": "6 min caminhada regenerativa."
       },
-      "physiological_goal": "Potência neuromuscular, recrutamento máximo das fibras musculares e ganho de força propulsiva específica de corrida sem o impacto das retas em velocidade."
+      "physiological_goal": "Desenvolvimento da capacidade aeróbia com estímulo moderado sob fadiga no terço final."
     },
     {
       "id": 16,
-      "level": "intermediario",
-      "title": "Cruise Intervals no Limiar Fracionado 4x1500m",
-      "total_duration_minutes": 58,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "15 minutos de trote Zona 2 + 3 acelerações de 60m.",
-        "main_set": "4 repetições de 1.500 metros em ritmo de 10km a Meia Maratona (Limiar, Zona 4, PSE 7-8), com apenas 1 minuto e 15 segundos de trote leve de pausa entre as séries.",
-        "cooldown": "12 minutos de trote em Zona 1 para remoção de resíduos metabólicos."
+      "level": "iniciante",
+      "title": "Regenerativo de Descompressão 20 min",
+      "total_time_minutes": 30,
+      "workout_type": "regenerativo",
+      "structure": {
+        "warmup": "5 min caminhada solta.",
+        "main_set": "20 min trote extremamente leve na Z1 pura (PSE 3, super descontraído e sem impacto).",
+        "cooldown": "5 min alongamento e relaxamento diafragmático."
       },
-      "physiological_goal": "Sustentação prolongada do limiar anaeróbico com curta recuperação para maximizar a eficiência de clearance láctico."
+      "physiological_goal": "Irrigação sanguínea de fibras musculares fadigadas acelerando a remoção de resíduos metabólicos."
     },
     {
       "id": 17,
-      "level": "intermediario",
-      "title": "Tiros Curtos de Economia e Sprints 10x400m",
-      "total_duration_minutes": 50,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "15 minutos de trote progressivo + educativos de corrida.",
-        "main_set": "10 repetições de 400 metros em ritmo de 3km a 5km (Zona 5, PSE 8-9, alta velocidade mecânica), com 1 minuto e 30 segundos de caminhada ou trote muito leve de recuperação.",
-        "cooldown": "10 minutos de trote regenerativo final na Zona 1."
+      "level": "iniciante",
+      "title": "Treino de Cadência Dinâmica 4x3 min",
+      "total_time_minutes": 36,
+      "workout_type": "continuo",
+      "structure": {
+        "warmup": "10 min trote Z2.",
+        "main_set": "4 blocos de 3 min em Z2 focando em manter 180 SPM cravados + 2 min de trote solto em cadência livre Z1.",
+        "cooldown": "6 min trote leve e soltura articular."
       },
-      "physiological_goal": "Aprimoramento da economia de corrida, tolerância mental ao desconforto de alta intensidade e eficiência mecânica sob velocidade."
+      "physiological_goal": "Automação da frequência de passos elevada melhorando a economia de corrida aeróbica."
     },
     {
       "id": 18,
-      "level": "intermediario",
-      "title": "Corrida Regenerativa de Descompressão",
-      "total_duration_minutes": 40,
-      "workout_type": "regenerativo",
-      "phases": {
-        "warmup": "5 minutos de caminhada solta.",
-        "main_set": "30 minutos de trote extremamente leve e relaxado na Zona 1 pura (PSE 3-4, abaixo de 65% FCmáx), mantendo a sensação de fluidez e sem nenhum esforço cardiovascular.",
-        "cooldown": "5 minutos de caminhada e alongamentos suaves de relaxamento."
+      "level": "iniciante",
+      "title": "Intervalado de Tiros Curto 8x200m",
+      "total_time_minutes": 39,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "12 min trote progressivo Z2 + educativos.",
+        "main_set": "8 repetições de 200m em ritmo firme de 5k (Z4/Z5, PSE 8), com 1:30 min de caminhada de pausa.",
+        "cooldown": "10 min trote Z1 para eliminação do ácido lático."
       },
-      "physiological_goal": "Aumento do fluxo sanguíneo para irrigar fibras musculares danificadas de treinos intensos anteriores, acelerando a recuperação sem gerar estresse central."
+      "physiological_goal": "Estimulação do VO2 máximo e coordenação motora fina em velocidades mais altas."
     },
     {
       "id": 19,
-      "level": "intermediario",
-      "title": "Tempo Run Fracionado 3x8 min no Limiar",
-      "total_duration_minutes": 55,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "15 minutos de trote leve em Zona 2.",
-        "main_set": "3 repetições de 8 minutos no ritmo alvo de 10km/limiar (Zona 4, PSE 7-8), intercaladas com 2 minutos de trote muito leve em Zona 1 para estabilizar a respiração.",
-        "cooldown": "12 minutos de trote final regenerativo em Zona 1."
+      "level": "iniciante",
+      "title": "Tempo Run Contínuo 15 min",
+      "total_time_minutes": 37,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "12 min trote aeróbico Z2.",
+        "main_set": "15 min contínuos em ritmo de limiar moderado (Z3 alto/Z4 baixo, PSE 7, confortávelmente duro).",
+        "cooldown": "10 min trote leve Z1."
       },
-      "physiological_goal": "Acúmulo de tempo de qualidade em limiar anaeróbico (total de 24 min) com menor estresse sistêmico graças às pausas estratégicas."
+      "physiological_goal": "Estabilização do ritmo sustentado de limiar sem interrupção para ganho de resistência muscular."
     },
     {
       "id": 20,
-      "level": "intermediario",
-      "title": "Longão Progressivo com Fast Finish 14 km",
-      "total_duration_minutes": 80,
+      "level": "iniciante",
+      "title": "Longão de 40 Minutos",
+      "total_time_minutes": 52,
       "workout_type": "longo",
-      "phases": {
-        "warmup": "15 minutos de trote inicial confortável em Zona 1/Zona 2 baixa.",
-        "main_set": "8 km em ritmo aeróbico estável de longa distância em Zona 2 (PSE 5), seguidos por 4 km finais em progressão para o ritmo de Meia Maratona / Zona 3 superior (Fast Finish, PSE 7, simulando o cansaço final de prova).",
-        "cooldown": "10 minutos de trote muito lento em Zona 1 e hidratação imediata."
+      "structure": {
+        "warmup": "6 min trote leve de entrada.",
+        "main_set": "40 min corrida contínua estável e confortável na Z2 (PSE 5). Hidratar aos 20 min.",
+        "cooldown": "6 min caminhada regenerativa e alongamentos."
       },
-      "physiological_goal": "Treinamento do corpo e da mente para sustentar ou aumentar o pace mesmo após depleção parcial de glicogênio muscular."
+      "physiological_goal": "Aumento significativo da capacidade aeróbia geral e resiliência das articulações ao esforço prolongado."
     },
     {
       "id": 21,
-      "level": "avancado",
-      "title": "Intervalado Norueguês de Duplo Limiar 4x2000m",
-      "total_duration_minutes": 65,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "15 minutos de trote aeróbico Zona 2 + 4 progressões de 100m.",
-        "main_set": "4 repetições de 2.000 metros controladas no sub-limiar / limiar anaeróbico (Zona 4 inferior, 3.5 a 4.0 mmol/L de lactato, PSE 7.5, ritmo cravado sem oscilações bruscas), com 1 min e 30s de trote leve de recuperação.",
-        "cooldown": "15 minutos de trote regenerativo em Zona 1 pura."
+      "level": "iniciante",
+      "title": "Corrida Aeróbica de Estabilização 35 min",
+      "total_time_minutes": 45,
+      "workout_type": "continuo",
+      "structure": {
+        "warmup": "5 min caminhada rápida.",
+        "main_set": "35 min corrida contínua em Z2 (PSE 5, ritmo estável de respiração tranquila).",
+        "cooldown": "5 min trote regressivo até caminhada."
       },
-      "physiological_goal": "Maximização do tempo sustentado em limiar sem ultrapassar a barreira da acidose excessiva, promovendo adaptações periféricas e centrais de elite."
+      "physiological_goal": "Manutenção e consolidação da base aeróbica primária do corredor."
     },
     {
       "id": 22,
-      "level": "avancado",
-      "title": "Tiros de VO2 Máximo Severo em Pista 10x800m",
-      "total_duration_minutes": 65,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "18 minutos de trote em Zona 2 + rotina completa de educativos e 3 tiros de 60m no pace de sprint.",
-        "main_set": "10 repetições de 800 metros no ritmo alvo exato de 3km/5km (Zona 5, PSE 9, mais de 93% da FCmáx), com 2 minutos exatos de trote/caminhada de recuperação entre os tiros para manter o padrão mecânico alto.",
-        "cooldown": "15 minutos de trote regenerativo em Zona 1 e soltura miofascial profunda."
+      "level": "iniciante",
+      "title": "Fartlek Piramidal Leve 1-2-3-2-1 min",
+      "total_time_minutes": 41,
+      "workout_type": "fartlek",
+      "structure": {
+        "warmup": "10 min trote Z2.",
+        "main_set": "Tiros de 1, 2, 3, 2 e 1 min em Z3/Z4 (PSE 7) seguidos de tempos iguais de caminhada/trote Z1.",
+        "cooldown": "10 min trote regenerativo."
       },
-      "physiological_goal": "Otimização máxima do débito cardíaco, consumo de oxigênio de pico (VO2máx) e resiliência à acidose metabólica extrema."
+      "physiological_goal": "Variação de estímulos metabólicos ensinando dosagem de esforço em diferentes janelas de tempo."
     },
     {
       "id": 23,
-      "level": "avancado",
-      "title": "Bloco Específico de Pace de Maratona 18 km",
-      "total_duration_minutes": 95,
-      "workout_type": "longo",
-      "phases": {
-        "warmup": "20 minutos de trote aeróbico de aquecimento em Zona 2.",
-        "main_set": "12 km contínuos cravados exatamente no ritmo alvo da Maratona (Marathon Pace - MP, Zona 3 superior / Zona 4 baixa, PSE 6.5-7.0), mantendo economia de movimento perfeita e ingestão programada de gel/eletrólitos.",
-        "cooldown": "15 minutos de trote regenerativo na Zona 1."
+      "level": "iniciante",
+      "title": "Hill Repeats de Força 8x30s",
+      "total_time_minutes": 40,
+      "workout_type": "hill_repeats",
+      "structure": {
+        "warmup": "12 min trote no plano Z2.",
+        "main_set": "8 repetições de 30s em subida firme (6% inclinação, PSE 8, Z4/Z5), descendo caminhando (90s).",
+        "cooldown": "10 min trote solto no plano."
       },
-      "physiological_goal": "Economia de corrida no ritmo exato da prova de 42k, adaptação gastrointestinal à nutrição sob esforço e eficiência do metabolismo lipídico/glicolítico combinado."
+      "physiological_goal": "Ganho de potência propulsiva na musculatura de gémeos e quadríceps."
     },
     {
       "id": 24,
-      "level": "avancado",
-      "title": "Over-Under Tempo Run Alternado 6x(3+3 min)",
-      "total_duration_minutes": 68,
+      "level": "iniciante",
+      "title": "Intervalado Clássico 4x400m",
+      "total_time_minutes": 42,
       "workout_type": "intervalado",
-      "phases": {
-        "warmup": "16 minutos de trote Zona 2 + ativação de core e glúteos.",
-        "main_set": "6 blocos contínuos sem pausa de 6 minutos contendo: 3 minutos acima do limiar (Over, ritmo de 5km/10km, Zona 4 alto/Zona 5, PSE 8.5) alternados com 3 minutos logo abaixo do limiar (Under, ritmo de Meia Maratona, Zona 3 alto, PSE 6.5). Total de 36 minutos contínuos alternando ritmos fortes.",
-        "cooldown": "16 minutos de trote de descompressão em Zona 1."
+      "structure": {
+        "warmup": "15 min trote Z2 + 4 educativos.",
+        "main_set": "4 repetições de 400m no ritmo alvo de 5k (Z5, PSE 8-9), com 2 min de caminhada de intervalo.",
+        "cooldown": "11 min trote de descompressão Z1."
       },
-      "physiological_goal": "Treinamento dinâmico do sistema transportador de monocarboxilato (MCT), ensinando as fibras musculares a reutilizar e reciclar o lactato como combustível durante a própria corrida."
+      "physiological_goal": "Estimulação direta da potência aeróbica máxima (VO2máx) adaptativa."
     },
     {
       "id": 25,
+      "level": "iniciante",
+      "title": "Tempo Run Fracionado 2x8 min",
+      "total_time_minutes": 43,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "12 min trote leve Z2.",
+        "main_set": "2 blocos de 8 min em ritmo de limiar Z4 baixo (PSE 7.5), com 3 min de trote regenerativo Z1 no meio.",
+        "cooldown": "12 min trote de relaxamento Z1."
+      },
+      "physiological_goal": "Elevação da velocidade de limiar anaeróbio com volume total de 16 min de qualidade."
+    },
+    {
+      "id": 26,
+      "level": "iniciante",
+      "title": "Longão Progressivo 45 min",
+      "total_time_minutes": 57,
+      "workout_type": "longo",
+      "structure": {
+        "warmup": "6 min trote leve Z1.",
+        "main_set": "30 min corrida suave Z2 (PSE 5) + 15 min finais em ritmo de limiar aeróbio Z3 (PSE 6-7).",
+        "cooldown": "6 min caminhada regenerativa."
+      },
+      "physiological_goal": "Desenvolvimento de resistência de longo prazo e transição de substrato energético em fadiga."
+    },
+    {
+      "id": 27,
+      "level": "iniciante",
+      "title": "Corrida Regenerativa 25 min",
+      "total_time_minutes": 35,
+      "workout_type": "regenerativo",
+      "structure": {
+        "warmup": "5 min caminhada.",
+        "main_set": "25 min trote contínuo super relaxado em Z1 pura (PSE 3, foco total na leveza da passada).",
+        "cooldown": "5 min respiração e alongamento."
+      },
+      "physiological_goal": "Recuperação ativa sistêmica sem sobrecarga mecânica."
+    },
+    {
+      "id": 28,
+      "level": "iniciante",
+      "title": "Fartlek Dinâmico 10x(1 min Rápido / 1 min Trote)",
+      "total_time_minutes": 42,
+      "workout_type": "fartlek",
+      "structure": {
+        "warmup": "10 min trote aquecimento Z2.",
+        "main_set": "20 min alternando 1 min rápido Z4 (PSE 7.5) com 1 min trote leve Z1/Z2 (PSE 4).",
+        "cooldown": "12 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Aprimoramento do clearance láctico dinâmico e controle de ritmo intervalado."
+    },
+    {
+      "id": 29,
+      "level": "iniciante",
+      "title": "Cruise Intervals 3x1000m",
+      "total_time_minutes": 45,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "12 min trote Z2 + 3 tiros de 50m.",
+        "main_set": "3 repetições de 1.000m em ritmo de 10k (Z4, PSE 7-8), com 2 min de trote leve Z1 de pausa.",
+        "cooldown": "11 min trote de descompressão Z1."
+      },
+      "physiological_goal": "Eficiência metabólica no limiar anaeróbio em distância fracionada."
+    },
+    {
+      "id": 30,
+      "level": "iniciante",
+      "title": "Longão de Conquista dos 50 Minutos",
+      "total_time_minutes": 62,
+      "workout_type": "longo",
+      "structure": {
+        "warmup": "6 min trote leve inicial.",
+        "main_set": "50 min corrida contínua em ritmo estritamente estável Z2 (PSE 5, ritmo de conforto aeróbico máximo).",
+        "cooldown": "6 min caminhada e rotina de alongamento completa."
+      },
+      "physiological_goal": "Marco de endurance base para iniciantes, consolidando a capacidade de correr quase 1 hora ininterruptamente."
+    },
+    {
+      "id": 31,
+      "level": "intermediario",
+      "title": "Volume Aeróbico de Base em Zona 2",
+      "total_time_minutes": 50,
+      "workout_type": "continuo",
+      "structure": {
+        "warmup": "10 min trote suave na transição Z1/Z2.",
+        "main_set": "32 min corrida contínua estável na Z2 pura (70-75% FCmáx, PSE 5, cadência 180 SPM).",
+        "cooldown": "8 min trote regenerativo em Z1 e alongamento estático."
+      },
+      "physiological_goal": "Densidade mitocondrial de fibras tipo I, economia de glicogênio e fortalecimento cardiovascular."
+    },
+    {
+      "id": 32,
+      "level": "intermediario",
+      "title": "Intervalado de VO2 Máximo 5x1000m",
+      "total_time_minutes": 55,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "15 min trote em Z2 + 4 educativos dinâmicos e 2 acelerações de 80m.",
+        "main_set": "5 repetições de 1.000m no ritmo alvo de 5km (Z5, PSE 8-9, 90-95% FCmáx), com 2:30 min de trote leve de pausa.",
+        "cooldown": "12 min trote regenerativo em Z1 (PSE 3-4)."
+      },
+      "physiological_goal": "Expansão direta do VO2 máximo, potência aeróbica e tolerância severa ao ácido lático."
+    },
+    {
+      "id": 33,
+      "level": "intermediario",
+      "title": "Tempo Run no Limiar de Lactato 25 min",
+      "total_time_minutes": 50,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "15 min trote em Z2 com progressão final nos últimos 2 min.",
+        "main_set": "25 min contínuos cravados no ritmo de limiar anaeróbio (Z4, PSE 7-8, aprox. 85-88% FCmáx, ritmo confortávelmente duro).",
+        "cooldown": "10 min trote leve de descompressão em Z1."
+      },
+      "physiological_goal": "Elevação do limiar de lactato permitindo sustentar velocidades mais altas sem exaustão por acidose."
+    },
+    {
+      "id": 34,
+      "level": "intermediario",
+      "title": "Fartlek Piramidal de Velocidade",
+      "total_time_minutes": 48,
+      "workout_type": "fartlek",
+      "structure": {
+        "warmup": "12 min trote leve Z2 e mobilidade de tornozelo.",
+        "main_set": "Piramidal de acelerações Z4/Z5 com igual tempo de trote Z1: 1 min forte/1 min trote -> 2/2 -> 3/3 -> 2/2 -> 1/1 min.",
+        "cooldown": "10 min trote regenerativo e soltura muscular."
+      },
+      "physiological_goal": "Flexibilidade metabólica, capacidade de variação de ritmo e recuperação dinâmica sob fadiga."
+    },
+    {
+      "id": 35,
+      "level": "intermediario",
+      "title": "Hill Repeats de Força e Potência 8x45s",
+      "total_time_minutes": 45,
+      "workout_type": "hill_repeats",
+      "structure": {
+        "warmup": "15 min trote aeróbico Z2 no plano até a base da subida.",
+        "main_set": "8 repetições de 45s em subida de 6 a 8% com intensidade forte e impulsão máxima (PSE 8-9, Z5), descendo caminhando (90s pausa).",
+        "cooldown": "12 min trote no plano e alongamento de panturrilhas."
+      },
+      "physiological_goal": "Potência neuromuscular específica de corrida com recrutamento máximo de unidades motoras e sem impacto flat."
+    },
+    {
+      "id": 36,
+      "level": "intermediario",
+      "title": "Cruise Intervals no Limiar 4x1500m",
+      "total_time_minutes": 58,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "15 min trote Z2 + 3 acelerações de 60m.",
+        "main_set": "4 repetições de 1.500m no ritmo de 10k a Meia Maratona (Z4, PSE 7-8), com apenas 1:15 min de trote leve de pausa.",
+        "cooldown": "12 min trote em Z1 para remoção de metabólitos."
+      },
+      "physiological_goal": "Sustentação prolongada de limiar anaeróbio com curta recuperação para maximizar o clearance láctico."
+    },
+    {
+      "id": 37,
+      "level": "intermediario",
+      "title": "Tiros de Economia e Sprints 10x400m",
+      "total_time_minutes": 50,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "15 min trote progressivo + educativos técnicos de corrida.",
+        "main_set": "10 repetições de 400m em ritmo de 3k a 5k (Z5, PSE 8-9, mecânica rápida e reativa), com 1:30 min de trote leve/caminhada.",
+        "cooldown": "10 min trote regenerativo na Z1."
+      },
+      "physiological_goal": "Aprimoramento da economia de corrida, tolerância mental ao esforço severo e reatividade de tornozelo."
+    },
+    {
+      "id": 38,
+      "level": "intermediario",
+      "title": "Corrida Regenerativa de Descompressão",
+      "total_time_minutes": 40,
+      "workout_type": "regenerativo",
+      "structure": {
+        "warmup": "5 min caminhada solta.",
+        "main_set": "30 min trote extremamente leve e relaxado na Z1 pura (PSE 3-4, abaixo de 65% FCmáx), mantendo fluidez sem esforço.",
+        "cooldown": "5 min caminhada e alongamentos suaves."
+      },
+      "physiological_goal": "Aumento do fluxo sanguíneo para nutrir e reparar fibras musculares danificadas em treinos intensos."
+    },
+    {
+      "id": 39,
+      "level": "intermediario",
+      "title": "Tempo Run Fracionado 3x8 min",
+      "total_time_minutes": 55,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "15 min trote leve em Z2.",
+        "main_set": "3 repetições de 8 min no ritmo alvo de 10k/limiar (Z4, PSE 7-8), intercaladas com 2 min de trote leve Z1 para estabilizar a respiração.",
+        "cooldown": "12 min trote final regenerativo em Z1."
+      },
+      "physiological_goal": "Acúmulo expressivo de tempo de qualidade em limiar (24 min totais) com menor estresse central devido às pausas."
+    },
+    {
+      "id": 40,
+      "level": "intermediario",
+      "title": "Longão Progressivo com Fast Finish 14 km",
+      "total_time_minutes": 80,
+      "workout_type": "longo",
+      "structure": {
+        "warmup": "15 min trote inicial confortável em Z1/Z2 baixa.",
+        "main_set": "8 km em ritmo aeróbio estável Z2 (PSE 5), seguidos por 4 km finais em progressão para ritmo de Meia Maratona Z3/Z4 (Fast Finish, PSE 7).",
+        "cooldown": "10 min trote muito lento em Z1 e hidratação imediata."
+      },
+      "physiological_goal": "Treinamento do corpo para sustentar e aumentar o pace sob depleção parcial de glicogênio muscular."
+    },
+    {
+      "id": 41,
+      "level": "intermediario",
+      "title": "Volume Aeróbico Intermediário 55 min",
+      "total_time_minutes": 55,
+      "workout_type": "continuo",
+      "structure": {
+        "warmup": "10 min trote Z1/Z2.",
+        "main_set": "37 min corrida contínua estável na Z2 pura (PSE 5), focando em respiração nasal ou ritmo bem solto.",
+        "cooldown": "8 min trote e alongamento de cadeia posterior."
+      },
+      "physiological_goal": "Estabilização de alto volume aeróbio em ritmo confortável."
+    },
+    {
+      "id": 42,
+      "level": "intermediario",
+      "title": "Intervalado Médio 6x800m",
+      "total_time_minutes": 54,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "15 min trote Z2 + educativos.",
+        "main_set": "6 repetições de 800m no pace de 5k (Z5, PSE 8.5), com 2 min de trote leve Z1 entre as repetições.",
+        "cooldown": "12 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Tolerância prolongada na zona de VO2 máximo e captação periférica do oxigênio."
+    },
+    {
+      "id": 43,
+      "level": "intermediario",
+      "title": "Tempo Run Contínuo 30 min",
+      "total_time_minutes": 57,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "15 min trote Z2 progressivo.",
+        "main_set": "30 min contínuos no ritmo exato de limiar de lactato (Z4, PSE 7.5, pace constante e concentrado).",
+        "cooldown": "12 min trote de descompressão Z1."
+      },
+      "physiological_goal": "Consolidação de meio tempo em limiar anaeróbio elevando a resistência ao ácido lático."
+    },
+    {
+      "id": 44,
+      "level": "intermediario",
+      "title": "Hill Repeats Longos 6x1 min",
+      "total_time_minutes": 50,
+      "workout_type": "hill_repeats",
+      "structure": {
+        "warmup": "15 min trote no plano Z2.",
+        "main_set": "6 repetições de 1 min em subida moderada (6-7%) com esforço forte (Z5, PSE 8.5), descendo caminhando ou trote super leve (2 min).",
+        "cooldown": "12 min trote no plano."
+      },
+      "physiological_goal": "Força resistente propulsiva e potência cardiovascular sem impacto de pista."
+    },
+    {
+      "id": 45,
+      "level": "intermediario",
+      "title": "Fartlek Quêniano 15x(1 min Forte / 1 min Trote)",
+      "total_time_minutes": 56,
+      "workout_type": "fartlek",
+      "structure": {
+        "warmup": "13 min trote Z2.",
+        "main_set": "30 min alternando 1 min forte Z4 (pace de 10k) com 1 min trote ativo Z2 (sem caminhar).",
+        "cooldown": "13 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Capacidade de depuração contínua do lactato em velocidades médias e altas."
+    },
+    {
+      "id": 46,
+      "level": "intermediario",
+      "title": "Intervalado de Velocidade 12x200m",
+      "total_time_minutes": 48,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "16 min trote Z2 + educativos de velocidade.",
+        "main_set": "12 repetições de 200m em ritmo de 3k (Z5, PSE 9, alta reatividade), com 1 min de trote leve entre os tiros.",
+        "cooldown": "12 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Otimização da mecânica de velocidade e recrutamento rápido de unidades motoras."
+    },
+    {
+      "id": 47,
+      "level": "intermediario",
+      "title": "Regenerativo Ativo 35 min",
+      "total_time_minutes": 35,
+      "workout_type": "regenerativo",
+      "structure": {
+        "warmup": "5 min caminhada.",
+        "main_set": "25 min trote contínuo leve em Z1 (PSE 3, fluxo livre).",
+        "cooldown": "5 min caminhada e alongamento."
+      },
+      "physiological_goal": "Limpeza metabólica em dias intercalados após treinos de alta intensidade."
+    },
+    {
+      "id": 48,
+      "level": "intermediario",
+      "title": "Cruise Intervals 3x2000m",
+      "total_time_minutes": 64,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "15 min trote Z2.",
+        "main_set": "3 repetições de 2.000m no ritmo alvo de Meia Maratona / 15k (Z4, PSE 7-8), com 1:30 min de trote leve de recuperação.",
+        "cooldown": "14 min trote Z1 de relaxamento."
+      },
+      "physiological_goal": "Adaptação ao ritmo contínuo sustentado de Meia Maratona com intervalos curtos."
+    },
+    {
+      "id": 49,
+      "level": "intermediario",
+      "title": "Tempo Run Fracionado 2x15 min",
+      "total_time_minutes": 62,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "15 min trote Z2.",
+        "main_set": "2 blocos de 15 min no limiar anaeróbio Z4 (PSE 7.5), com 3 min de trote super leve Z1 entre eles.",
+        "cooldown": "14 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Volume expressivo de limiar anaeróbio (30 min) fracionado para manter a técnica imaculada."
+    },
+    {
+      "id": 50,
+      "level": "intermediario",
+      "title": "Longão Progressivo de 16 km",
+      "total_time_minutes": 90,
+      "workout_type": "longo",
+      "structure": {
+        "warmup": "15 min trote Z1/Z2.",
+        "main_set": "10 km em ritmo aeróbio Z2 + 6 km finais no ritmo de Meia Maratona Z3/Z4 (PSE 7-8).",
+        "cooldown": "10 min trote muito lento Z1 e alongamentos completos."
+      },
+      "physiological_goal": "Resistência cardiorrespiratória extensiva e simulação final de esforço em prova."
+    },
+    {
+      "id": 51,
+      "level": "intermediario",
+      "title": "Volume Aeróbico de Manutenção 45 min",
+      "total_time_minutes": 45,
+      "workout_type": "continuo",
+      "structure": {
+        "warmup": "8 min trote leve Z1.",
+        "main_set": "30 min corrida contínua fluida em Z2 (PSE 5).",
+        "cooldown": "7 min trote regressivo e soltura."
+      },
+      "physiological_goal": "Manutenção da capilarização e estabilidade aeróbia no meio da semana."
+    },
+    {
+      "id": 52,
+      "level": "intermediario",
+      "title": "Intervalado Misto 4x(800m + 400m)",
+      "total_time_minutes": 58,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "16 min trote Z2 + educativos.",
+        "main_set": "4 séries de [800m no pace 5k Z5 (PSE 8.5) + 1:30 min trote + 400m no pace 3k Z5 (PSE 9) + 2 min trote].",
+        "cooldown": "12 min trote leve Z1."
+      },
+      "physiological_goal": "Variação e sustentação de alta potência aeróbia sob mudança de velocidade intra-série."
+    },
+    {
+      "id": 53,
+      "level": "intermediario",
+      "title": "Hill Repeats Explosivos 10x30s",
+      "total_time_minutes": 46,
+      "workout_type": "hill_repeats",
+      "structure": {
+        "warmup": "15 min trote aeróbico Z2.",
+        "main_set": "10 subidas de 30s em rampa acentuada (8% inclinação) com impulsão explosiva (Z5, PSE 9), descendo caminhando (1:30 min).",
+        "cooldown": "12 min trote no plano."
+      },
+      "physiological_goal": "Recrutamento máximo de fibras rápidas e fortalecimento dos tendões de Aquiles e patela."
+    },
+    {
+      "id": 54,
+      "level": "intermediario",
+      "title": "Fartlek Lúdico Piramidal 2-3-4-3-2 min",
+      "total_time_minutes": 53,
+      "workout_type": "fartlek",
+      "structure": {
+        "warmup": "12 min trote Z2.",
+        "main_set": "Tiros contínuos em Z4 (PSE 7.5) de 2, 3, 4, 3 e 2 min com intervalos de 2 min de trote leve Z1/Z2 entre cada bloco.",
+        "cooldown": "13 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Desenvolvimento de endurance no limiar com transição suave entre intensidades."
+    },
+    {
+      "id": 55,
+      "level": "intermediario",
+      "title": "Tempo Run Progressivo 35 min",
+      "total_time_minutes": 62,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "15 min trote Z2.",
+        "main_set": "35 min contínuos começando na Z3 alta (15 min) e progredindo para Z4 pura nos 20 min finais (PSE 7-8).",
+        "cooldown": "12 min trote de descompressão Z1."
+      },
+      "physiological_goal": "Elevação progressiva do limiar anaeróbio sob estresse de fadiga metabólica cumulativa."
+    },
+    {
+      "id": 56,
+      "level": "intermediario",
+      "title": "Intervalado Longo 3x1500m",
+      "total_time_minutes": 55,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "15 min trote Z2 + acelerações.",
+        "main_set": "3 repetições de 1.500m no ritmo exato de 10k (Z4 alto, PSE 8), com 2 min de trote leve Z1 de intervalo.",
+        "cooldown": "12 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Estímulo cardiovascular de alta duração na zona mista limiar-VO2."
+    },
+    {
+      "id": 57,
+      "level": "intermediario",
+      "title": "Corrida Regenerativa 45 min",
+      "total_time_minutes": 45,
+      "workout_type": "regenerativo",
+      "structure": {
+        "warmup": "5 min caminhada.",
+        "main_set": "35 min trote em Z1 (PSE 3, ritmo super tranquilo).",
+        "cooldown": "5 min alongamento geral."
+      },
+      "physiological_goal": "Recuperação ativa com leve estímulo de volume periférico sem estresse lático."
+    },
+    {
+      "id": 58,
+      "level": "intermediario",
+      "title": "Cruise Intervals de Volume 5x1000m",
+      "total_time_minutes": 56,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "15 min trote Z2.",
+        "main_set": "5 repetições de 1.000m no ritmo alvo de 10k (Z4, PSE 7.5), com 1 min de trote leve de pausa.",
+        "cooldown": "12 min trote solto Z1."
+      },
+      "physiological_goal": "Aprimoramento da tolerância ao lactato em ritmo de prova de 10 quilômetros."
+    },
+    {
+      "id": 59,
+      "level": "intermediario",
+      "title": "Tempo Run Fracionado 4x6 min",
+      "total_time_minutes": 54,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "14 min trote Z2.",
+        "main_set": "4 blocos de 6 min no limiar Z4 (PSE 7.5), com 1:30 min de trote leve Z1 entre as séries.",
+        "cooldown": "12 min trote regenerativo."
+      },
+      "physiological_goal": "Eficiência e sustentação técnica no limiar de lactato com micropausas."
+    },
+    {
+      "id": 60,
+      "level": "intermediario",
+      "title": "Longão Estável de 18 km",
+      "total_time_minutes": 100,
+      "workout_type": "longo",
+      "structure": {
+        "warmup": "15 min trote Z1/Z2.",
+        "main_set": "15 km em ritmo contínuo e estável na Z2 alta (PSE 5.5, ritmo objetivo de maratona/endurance).",
+        "cooldown": "10 min trote muito lento Z1 e hidratação hidroeletrolítica."
+      },
+      "physiological_goal": "Adaptação musculoesquelética de longo prazo para provas de Meia Maratona e Maratona."
+    },
+    {
+      "id": 61,
+      "level": "avancado",
+      "title": "Intervalado Norueguês de Duplo Limiar 4x2000m",
+      "total_time_minutes": 65,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "15 min trote aeróbico Z2 + 4 progressões de 100m.",
+        "main_set": "4 repetições de 2.000m controladas no sub-limiar/limiar anaeróbio (Z4 baixa, 3.5-4.0 mmol/L lactato, PSE 7.5, pace cravado), com 1:30 min trote leve de recuperação.",
+        "cooldown": "15 min trote regenerativo em Z1 pura."
+      },
+      "physiological_goal": "Maximização do tempo sustentado em limiar sem ultrapassar a barreira da acidose excessiva, promovendo adaptações centrais e periféricas de alto nível."
+    },
+    {
+      "id": 62,
+      "level": "avancado",
+      "title": "Tiros de VO2 Máximo Severo em Pista 10x800m",
+      "total_time_minutes": 65,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "18 min trote em Z2 + rotina completa de educativos e 3 tiros de 60m.",
+        "main_set": "10 repetições de 800m no ritmo alvo exato de 3k/5k (Z5, PSE 9, >93% FCmáx), com 2 min exatos de trote/caminhada de pausa.",
+        "cooldown": "15 min trote regenerativo Z1 e soltura miofascial."
+      },
+      "physiological_goal": "Otimização máxima do débito cardíaco, VO2 máximo e resiliência à acidose metabólica extrema."
+    },
+    {
+      "id": 63,
+      "level": "avancado",
+      "title": "Bloco Específico de Pace de Maratona 18 km",
+      "total_time_minutes": 95,
+      "workout_type": "longo",
+      "structure": {
+        "warmup": "20 min trote aeróbico Z2.",
+        "main_set": "12 km contínuos cravados exatamente no ritmo alvo de Maratona (MP, Z3 alto/Z4 baixo, PSE 6.5-7), mantendo economia perfeita e ingestão de gel/eletrólitos.",
+        "cooldown": "15 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Economia de corrida no pace de 42k, adaptação gastrointestinal sob esforço e utilização de lipídeos."
+    },
+    {
+      "id": 64,
+      "level": "avancado",
+      "title": "Over-Under Tempo Run Alternado 6x(3+3 min)",
+      "total_time_minutes": 68,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "16 min trote Z2 + ativação de core e glúteos.",
+        "main_set": "6 blocos contínuos sem pausa de 6 min: 3 min acima do limiar (Over, pace 5k/10k, Z4 alto/Z5, PSE 8.5) alternados com 3 min logo abaixo do limiar (Under, pace 21k, Z3 alto, PSE 6.5). Total 36 min contínuos.",
+        "cooldown": "16 min trote de descompressão Z1."
+      },
+      "physiological_goal": "Treinamento do transportador de monocarboxilato (MCT), ensinando as fibras musculares a reciclar o lactato como combustível durante a própria corrida."
+    },
+    {
+      "id": 65,
       "level": "avancado",
       "title": "Intervalado Láctico de Pista 15x400m Curta Pausa",
-      "total_duration_minutes": 60,
+      "total_time_minutes": 60,
       "workout_type": "intervalado",
-      "phases": {
-        "warmup": "18 minutos de trote progressivo + educativos e sprints curtos.",
-        "main_set": "15 repetições de 400 metros em ritmo rigoroso de 5km (Zona 5, PSE 8.5-9), com apenas 60 segundos de trote leve de recuperação entre cada tiro, gerando fadiga acumulada controlada.",
-        "cooldown": "15 minutos de trote super leve em Zona 1 para clearence sistêmico."
+      "structure": {
+        "warmup": "18 min trote progressivo + educativos e sprints curtos.",
+        "main_set": "15 repetições de 400m em ritmo rigoroso de 5k (Z5, PSE 8.5-9), com apenas 60s de trote leve de pausa entre cada tiro.",
+        "cooldown": "15 min trote super leve Z1 para clearance sistêmico."
       },
       "physiological_goal": "Tolerância à fadiga central sob alta velocidade, capacidade tamponante e consistência mecânica na presença de íons H+."
     },
     {
-      "id": 26,
+      "id": 66,
       "level": "avancado",
       "title": "Hill Repeats de Força Bruta e VO2 12x1 min",
-      "total_duration_minutes": 62,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "18 minutos de trote Zona 2 até ladeira longa e regular.",
-        "main_set": "12 repetições de 1 minuto em subida de 7% a 9% com esforço intenso (PSE 9, Zona 5, máxima acentuação da impulsão de tornozelo e joelho), com descida caminhando/trote lento de 1 minuto e 30 segundos para recuperação completa.",
-        "cooldown": "15 minutos de trote leve no plano."
+      "total_time_minutes": 62,
+      "workout_type": "hill_repeats",
+      "structure": {
+        "warmup": "18 min trote Z2 até ladeira longa e regular.",
+        "main_set": "12 repetições de 1 min em subida de 7 a 9% com esforço intenso (Z5, PSE 9, impulsão máxima), descendo caminhando/trote lento (1:30 min).",
+        "cooldown": "15 min trote leve no plano."
       },
-      "physiological_goal": "Desenvolvimento de potência aeróbica pura combinada com força explosiva de membros inferiores e resistência dos tendões de Aquiles."
+      "physiological_goal": "Desenvolvimento de potência aeróbica pura combinada com força explosiva de membros inferiores e resistência dos tendões."
     },
     {
-      "id": 27,
+      "id": 67,
       "level": "avancado",
       "title": "Fartlek Quêniano de Volume 20x(1 min Forte / 1 min Moderado)",
-      "total_duration_minutes": 70,
-      "workout_type": "intervalado",
-      "phases": {
-        "warmup": "15 minutos de trote aeróbico Zona 2.",
-        "main_set": "40 minutos ininterruptos de Fartlek alterando: 1 minuto forte no pace de 5km/10km (Zona 4/5, PSE 8.5) por 1 minuto de recuperação ativa em ritmo moderado aeróbico (Zona 3, pace de maratona, sem cair para trote lento ou caminhada).",
-        "cooldown": "15 minutos de trote regenerativo na Zona 1."
+      "total_time_minutes": 70,
+      "workout_type": "fartlek",
+      "structure": {
+        "warmup": "15 min trote aeróbico Z2.",
+        "main_set": "40 min ininterruptos alternando 1 min forte no pace de 5k/10k (Z4/Z5, PSE 8.5) por 1 min recuperação ativa no pace de Maratona Z3 (sem cair para trote lento).",
+        "cooldown": "15 min trote regenerativo Z1."
       },
-      "physiological_goal": "Capacidade aeróbica de alto nível, depuração contínua de lactato em velocidades altas e resistência cardiovascular de elite."
+      "physiological_goal": "Capacidade aeróbica de elite, depuração contínua de lactato em altas velocidades e resistência cardiovascular extrema."
     },
     {
-      "id": 28,
+      "id": 68,
       "level": "avancado",
       "title": "Longão Progressivo de 3 Fases 24 km",
-      "total_duration_minutes": 115,
+      "total_time_minutes": 115,
       "workout_type": "longo",
-      "phases": {
-        "warmup": "15 minutos de trote leve de entrada em Zona 1/2.",
-        "main_set": "Dividido em 3 fases contínuas sem paradas: Fase 1 (10 km em ritmo aeróbico leve Zona 2, PSE 5); Fase 2 (8 km em ritmo moderado de Maratona Zona 3, PSE 6.5); Fase 3 (6 km finais fortes no ritmo de Meia Maratona/Limiar Zona 4, PSE 8).",
-        "cooldown": "15 minutos de trote super leve em Zona 1 e protocolo pós-treino de recuperação."
+      "structure": {
+        "warmup": "15 min trote leve Z1/Z2.",
+        "main_set": "Dividido em 3 fases contínuas sem paradas: Fase 1 (10 km em ritmo aeróbico Z2, PSE 5); Fase 2 (8 km em ritmo moderado de Maratona Z3, PSE 6.5); Fase 3 (6 km finais fortes no ritmo de Meia Maratona Z4, PSE 8).",
+        "cooldown": "15 min trote super leve Z1 e recuperação."
       },
-      "physiological_goal": "Simulação precisa das demandas das fases final e intermediária de provas longas (21k e 42k), recrutando fibras profundas sob estresse glicolítico reduzido."
+      "physiological_goal": "Simulação precisa das demandas dos terços médio e final de provas longas (21k e 42k), recrutando fibras profundas sob glicogênio reduzido."
     },
     {
-      "id": 29,
+      "id": 69,
       "level": "avancado",
       "title": "Cruise Intervals Extensos 3x4000m Ritmo Meia Maratona",
-      "total_duration_minutes": 75,
+      "total_time_minutes": 75,
       "workout_type": "intervalado",
-      "phases": {
-        "warmup": "15 minutos de trote Zona 2 + alongamento dinâmico.",
-        "main_set": "3 repetições longas de 4.000 metros (4 km cada) no ritmo exato de Meia Maratona (Zona 4 baixa, limiar aeróbico-anaeróbico, PSE 7.5), com 2 minutos de trote de intervalo entre cada bloco de 4 km.",
-        "cooldown": "15 minutos de trote regenerativo em Zona 1."
+      "structure": {
+        "warmup": "15 min trote Z2 + alongamento dinâmico.",
+        "main_set": "3 repetições longas de 4.000m no ritmo exato de Meia Maratona (Z4 baixa, PSE 7.5), com 2 min de trote de intervalo entre cada bloco de 4 km.",
+        "cooldown": "15 min trote regenerativo Z1."
       },
-      "physiological_goal": "Estabilização psicológica e metabólica do pace de 21km com volume expressivo de qualidade de limiar (12 km totais rápidos)."
+      "physiological_goal": "Estabilização psicológica e metabólica do pace de 21k com volume expressivo de qualidade de limiar (12 km rápidos totais)."
     },
     {
-      "id": 30,
+      "id": 70,
       "level": "avancado",
       "title": "Tapering Sharpener (Polimento Pré-Prova 10k/21k)",
-      "total_duration_minutes": 45,
+      "total_time_minutes": 45,
       "workout_type": "intervalado",
-      "phases": {
-        "warmup": "15 minutos de trote leve em Zona 2 + educativos técnicos.",
-        "main_set": "6 repetições de 400 metros no ritmo exato objetivo da prova alvo (Zona 4/5, PSE 7-8, buscando leveza e mecânica solta sem gerar fadiga residual), com 1 minuto e 30 segundos de caminhada entre os tiros.",
-        "cooldown": "12 minutos de trote muito leve em Zona 1 e alongamentos relaxantes."
+      "structure": {
+        "warmup": "15 min trote leve Z2 + educativos técnicos.",
+        "main_set": "6 repetições de 400m no ritmo exato objetivo da prova alvo (Z4/Z5, PSE 7-8, buscando leveza e mecânica solta sem gerar fadiga residual), com 1:30 min de caminhada.",
+        "cooldown": "12 min trote muito leve Z1 e alongamentos relaxantes."
       },
-      "physiological_goal": "Manutenção da tensão neuromuscular e do tônus muscular (afinamento/polimento) na semana da prova principal, sem depletar estoques energéticos."
+      "physiological_goal": "Manutenção do tônus muscular e prontidão neuromuscular na semana de polimento da prova principal."
+    },
+    {
+      "id": 71,
+      "level": "avancado",
+      "title": "Volume Aeróbico de Elite 70 min",
+      "total_time_minutes": 70,
+      "workout_type": "continuo",
+      "structure": {
+        "warmup": "15 min trote Z1/Z2.",
+        "main_set": "45 min corrida contínua em Z2 alta (PSE 5.5, pace constante), mantendo cadência e postura impecáveis.",
+        "cooldown": "10 min trote Z1 e soltura."
+      },
+      "physiological_goal": "Capacidade aeróbia de alto volume com eficiência mecânica preservada."
+    },
+    {
+      "id": 72,
+      "level": "avancado",
+      "title": "Intervalado Curto de Potência 16x200m",
+      "total_time_minutes": 55,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "18 min trote progressivo Z2 + educativos e sprints de 40m.",
+        "main_set": "16 repetições de 200m em ritmo de 1.500m/3k (Z5, PSE 9.5), com 1 min de trote/caminhada.",
+        "cooldown": "15 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Potência glicolítica máxima, reatividade neuromuscular e cadência de sprint."
+    },
+    {
+      "id": 73,
+      "level": "avancado",
+      "title": "Tempo Run Longo no Limiar 40 min",
+      "total_time_minutes": 70,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "16 min trote Z2 progressivo.",
+        "main_set": "40 min contínuos no ritmo de limiar anaeróbio Z4 (PSE 7.5-8, foco na resiliência mental e constância mecânica).",
+        "cooldown": "14 min trote de descompressão Z1."
+      },
+      "physiological_goal": "Máxima adaptação à sustentação de ritmo no limiar de lactato sem quebra de postura."
+    },
+    {
+      "id": 74,
+      "level": "avancado",
+      "title": "Hill Repeats Longos de Força 8x90s",
+      "total_time_minutes": 60,
+      "workout_type": "hill_repeats",
+      "structure": {
+        "warmup": "18 min trote aeróbico Z2 até rampa longa.",
+        "main_set": "8 subidas de 1:30 min em inclinação moderada/forte (7%) em ritmo firme Z5 (PSE 8.5-9), descendo em trote lento (2 min pausa).",
+        "cooldown": "14 min trote no plano."
+      },
+      "physiological_goal": "Resistência de força específica propulsiva e tolerância lática periférica."
+    },
+    {
+      "id": 75,
+      "level": "avancado",
+      "title": "Fartlek Progressivo de Elite 1-2-3-4-5 min",
+      "total_time_minutes": 64,
+      "workout_type": "fartlek",
+      "structure": {
+        "warmup": "15 min trote Z2.",
+        "main_set": "Tiros em Z4 (PSE 8) de 1, 2, 3, 4 e 5 min com intervalo de 2 min de trote Z2 ativo entre cada estímulo.",
+        "cooldown": "14 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Capacidade de sustentar altas velocidades à medida que o tempo do bloco aumenta na sessão."
+    },
+    {
+      "id": 76,
+      "level": "avancado",
+      "title": "Intervalado de Pista 6x1200m",
+      "total_time_minutes": 62,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "16 min trote Z2 + educativos.",
+        "main_set": "6 repetições de 1.200m no pace exato de 5k (Z5, PSE 8.5-9), com 2:30 min de trote leve Z1 de recuperação.",
+        "cooldown": "14 min trote Z1 de soltura."
+      },
+      "physiological_goal": "Capacidade cardiovascular no VO2 máximo prolongado simulando esforço decisivo de prova."
+    },
+    {
+      "id": 77,
+      "level": "avancado",
+      "title": "Corrida Regenerativa Extensa 50 min",
+      "total_time_minutes": 50,
+      "workout_type": "regenerativo",
+      "structure": {
+        "warmup": "5 min caminhada.",
+        "main_set": "40 min trote muito leve e relaxado Z1 (PSE 3, abaixo de 65% FCmáx).",
+        "cooldown": "5 min alongamentos de relaxamento."
+      },
+      "physiological_goal": "Drenagem linfática muscular e irrigação capilar pós-sessão severa sem fadiga central."
+    },
+    {
+      "id": 78,
+      "level": "avancado",
+      "title": "Cruise Intervals de Volume 4x3000m",
+      "total_time_minutes": 78,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "16 min trote Z2.",
+        "main_set": "4 repetições de 3.000m no ritmo alvo de Meia Maratona (Z4 baixa, PSE 7.5), com 2 min de trote Z1 de intervalo.",
+        "cooldown": "14 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Consolidação de 12 km de qualidade de limiar aeróbio-anaeróbio para provas de fundo."
+    },
+    {
+      "id": 79,
+      "level": "avancado",
+      "title": "Tempo Run Fracionado de Longa Duração 3x12 min",
+      "total_time_minutes": 68,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "16 min trote Z2.",
+        "main_set": "3 blocos de 12 min no ritmo exato de limiar Z4 (PSE 7.5-8), intercalados com 2:30 min de trote leve Z1.",
+        "cooldown": "14 min trote final regenerativo."
+      },
+      "physiological_goal": "Tolerância prolongada no limiar de lactato fracionada para precisão mecânica e controle cardíaco."
+    },
+    {
+      "id": 80,
+      "level": "avancado",
+      "title": "Longão Progressivo Específico 26 km",
+      "total_time_minutes": 125,
+      "workout_type": "longo",
+      "structure": {
+        "warmup": "15 min trote Z1/Z2.",
+        "main_set": "12 km Z2 + 10 km no ritmo objetivo de Maratona Z3/Z4 + 4 km fortes no ritmo de Meia Maratona Z4 (PSE 8).",
+        "cooldown": "15 min trote regenerativo Z1 e hidratação total."
+      },
+      "physiological_goal": "Simulação de alta precisão das demandas metabólicas, neuromusculares e mentais para Maratona."
+    },
+    {
+      "id": 81,
+      "level": "avancado",
+      "title": "Volume Aeróbico Estável 60 min",
+      "total_time_minutes": 60,
+      "workout_type": "continuo",
+      "structure": {
+        "warmup": "10 min trote leve Z1/Z2.",
+        "main_set": "42 min corrida aeróbia em Z2 pura (PSE 5).",
+        "cooldown": "8 min trote regressivo."
+      },
+      "physiological_goal": "Volume aeróbio de suporte na semana sem acúmulo de fadiga anaeróbica."
+    },
+    {
+      "id": 82,
+      "level": "avancado",
+      "title": "Intervalado Misto Piramidal 400-800-1200-800-400m",
+      "total_time_minutes": 58,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "16 min trote Z2 + educativos.",
+        "main_set": "Tiros em Z5 (PSE 8.5-9) de 400m, 800m, 1.200m, 800m e 400m, com pausas de trote de 1:30 min (após 400m) e 2:30 min (após 800m/1200m).",
+        "cooldown": "14 min trote Z1."
+      },
+      "physiological_goal": "Ajuste de ritmo intra-sessão e estimulação mista de VO2 máximo e potência lática."
+    },
+    {
+      "id": 83,
+      "level": "avancado",
+      "title": "Hill Repeats de Explosão 14x30s",
+      "total_time_minutes": 52,
+      "workout_type": "hill_repeats",
+      "structure": {
+        "warmup": "18 min trote no plano Z2.",
+        "main_set": "14 subidas curtas de 30s em ladeira forte (8-10%) em velocidade explosiva máxima (Z5+, PSE 9.5), descendo caminhando (1:30 min).",
+        "cooldown": "14 min trote no plano e soltura."
+      },
+      "physiological_goal": "Potência neuromuscular máxima, recrutamento de fibras rápidas IIb/IIa e fortalecimento das articulações propulsivas."
+    },
+    {
+      "id": 84,
+      "level": "avancado",
+      "title": "Fartlek de Duplo Estímulo 10x(2 min Rápido / 1 min Moderado)",
+      "total_time_minutes": 62,
+      "workout_type": "fartlek",
+      "structure": {
+        "warmup": "16 min trote Z2.",
+        "main_set": "30 min contínuos alternando 2 min fortes Z4 (pace de 10k) com 1 min moderado Z3 (pace de maratona, sem caminhar).",
+        "cooldown": "16 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Otimização extrema da depuração (clearance) do ácido lático sem interrupção de ritmo."
+    },
+    {
+      "id": 85,
+      "level": "avancado",
+      "title": "Tempo Run Contínuo de 35 min",
+      "total_time_minutes": 64,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "16 min trote progressivo Z2.",
+        "main_set": "35 min contínuos cravados no limiar anaeróbio Z4 (PSE 7.5, ritmo de concentração total).",
+        "cooldown": "13 min trote Z1 de descompressão."
+      },
+      "physiological_goal": "Resistência à acidose sistêmica prolongada e economia de corrida no limiar."
+    },
+    {
+      "id": 86,
+      "level": "avancado",
+      "title": "Intervalado de Curto Alvo 20x200m com Pausa Curta",
+      "total_time_minutes": 56,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "18 min trote Z2 + educativos de velocidade.",
+        "main_set": "20 repetições de 200m no ritmo de 3k/5k (Z5, PSE 9), com apenas 45s de trote super leve entre os tiros.",
+        "cooldown": "14 min trote Z1 de remoção lática."
+      },
+      "physiological_goal": "Capacidade tamponante muscular de alto nível sob repetições intensas e curtas."
+    },
+    {
+      "id": 87,
+      "level": "avancado",
+      "title": "Corrida Regenerativa 40 min",
+      "total_time_minutes": 40,
+      "workout_type": "regenerativo",
+      "structure": {
+        "warmup": "5 min caminhada.",
+        "main_set": "30 min trote em Z1 pura (PSE 3, super solto e sem impacto).",
+        "cooldown": "5 min alongamento."
+      },
+      "physiological_goal": "Descompressão miofascial e recuperação circulatória ativa."
+    },
+    {
+      "id": 88,
+      "level": "avancado",
+      "title": "Cruise Intervals de Meia Maratona 5x2000m",
+      "total_time_minutes": 74,
+      "workout_type": "intervalado",
+      "structure": {
+        "warmup": "15 min trote Z2.",
+        "main_set": "5 repetições de 2.000m no ritmo exato de Meia Maratona Z4 baixa (PSE 7.5), com 1:30 min de trote leve de pausa.",
+        "cooldown": "14 min trote regenerativo Z1."
+      },
+      "physiological_goal": "Volume expressivo de limiar (10 km totais) para consolidar o pace específico de 21k."
+    },
+    {
+      "id": 89,
+      "level": "avancado",
+      "title": "Tempo Run Progressivo de Limiar 3x10 min",
+      "total_time_minutes": 63,
+      "workout_type": "tempo_run",
+      "structure": {
+        "warmup": "15 min trote Z2.",
+        "main_set": "3 repetições de 10 min, sendo: 1ª em Z3 alto, 2ª no limiar exato Z4, e 3ª ligeiramente acima do limiar Z4+/Z5 (PSE 8), com 2:30 min trote de pausa.",
+        "cooldown": "13 min trote leve Z1."
+      },
+      "physiological_goal": "Tolerância progressiva ao lactato com elevação contínua da demanda de clearance."
+    },
+    {
+      "id": 90,
+      "level": "avancado",
+      "title": "Longão de Endurance Estável 28 km",
+      "total_time_minutes": 135,
+      "workout_type": "longo",
+      "structure": {
+        "warmup": "15 min trote leve Z1/Z2.",
+        "main_set": "22 km em ritmo aeróbio contínuo Z2 (PSE 5.5, pace de endurance maratona) com teste rigoroso da estratégia de nutrição de prova.",
+        "cooldown": "15 min trote regenerativo Z1 e alongamentos completos."
+      },
+      "physiological_goal": "Resistência estrutural para Maratona e teste de metabolismo e digestão sob longa duração."
     }
   ]
 }

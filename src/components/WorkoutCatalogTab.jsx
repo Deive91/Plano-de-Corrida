@@ -122,26 +122,26 @@ export default function WorkoutCatalogTab() {
                   <h4 className="font-display font-bold text-slate-100 text-base sm:text-lg">
                     {w.title}
                   </h4>
-                  {w.total_duration_minutes && (
+                  {(w.total_time_minutes || w.total_duration_minutes) && (
                     <span className="text-xs font-semibold bg-emerald-500/20 text-emerald-300 px-2.5 py-1 rounded-full whitespace-nowrap">
-                      ⏱️ {w.total_duration_minutes} min
+                      ⏱️ {w.total_time_minutes || w.total_duration_minutes} min
                     </span>
                   )}
                 </div>
                 <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mb-3">
-                  {w.description}
+                  {w.description || (w.structure && w.structure.main_set ? w.structure.main_set : 'Sessão estruturada por zonas de frequência cardíaca e PSE.')}
                 </p>
 
-                {w.phases && (
+                {(w.structure || w.phases) && (
                   <div className="mt-2 space-y-1.5 bg-black/20 p-3 rounded-xl border border-white/5 text-xs text-slate-300">
                     <div>
-                      <span className="text-amber-400 font-bold">🔥 Aquecimento:</span> {w.phases.warmup}
+                      <span className="text-amber-400 font-bold">🔥 Aquecimento:</span> {(w.structure || w.phases).warmup}
                     </div>
                     <div>
-                      <span className="text-emerald-400 font-bold">🎯 Principal:</span> {w.phases.main_set}
+                      <span className="text-emerald-400 font-bold">🎯 Principal:</span> {(w.structure || w.phases).main_set}
                     </div>
                     <div>
-                      <span className="text-cyan-400 font-bold">🧘 Volta à Calma:</span> {w.phases.cooldown}
+                      <span className="text-cyan-400 font-bold">🧘 Volta à Calma:</span> {(w.structure || w.phases).cooldown}
                     </div>
                   </div>
                 )}

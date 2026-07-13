@@ -676,15 +676,16 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
         const catalogInfo = getCatalogWorkout(level, day.type, weekNumber, day.dayIndex);
         if (catalogInfo) {
           day.workoutTitle = catalogInfo.title;
-          day.phases = catalogInfo.phases || null;
+          const phasesObj = catalogInfo.structure || catalogInfo.phases || null;
+          day.phases = phasesObj;
           day.physiologicalGoal = catalogInfo.physiological_goal || null;
-          day.totalDurationMinutes = catalogInfo.total_duration_minutes || null;
+          day.totalDurationMinutes = catalogInfo.total_time_minutes || catalogInfo.total_duration_minutes || null;
           
-          let extraInfo = `\n\n💡 Protocolo Específico (${catalogInfo.title}): ${catalogInfo.description || ''}`;
-          if (catalogInfo.phases) {
-            extraInfo += `\n🔥 Aquecimento: ${catalogInfo.phases.warmup}`;
-            extraInfo += `\n🎯 Principal: ${catalogInfo.phases.main_set}`;
-            extraInfo += `\n🧘 Volta à Calma: ${catalogInfo.phases.cooldown}`;
+          let extraInfo = `\n\n💡 Protocolo Específico (${catalogInfo.title}): ${catalogInfo.description || (phasesObj && phasesObj.main_set ? phasesObj.main_set : '')}`;
+          if (phasesObj) {
+            extraInfo += `\n🔥 Aquecimento: ${phasesObj.warmup}`;
+            extraInfo += `\n🎯 Principal: ${phasesObj.main_set}`;
+            extraInfo += `\n🧘 Volta à Calma: ${phasesObj.cooldown}`;
           }
           if (catalogInfo.physiological_goal) {
             extraInfo += `\n🔬 Objetivo Biológico: ${catalogInfo.physiological_goal}`;

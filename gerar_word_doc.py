@@ -67,15 +67,25 @@ def create_plano_doc():
         return p
 
     # TÍTULO
-    add_title("DOCUMENTAÇÃO TÉCNICA DO SISTEMA\nPLANO DE CORRIDA APP")
-    add_p("Data: Julho de 2026 | Versão 2.3 | Arquitetura: React 18 + Vite + TailwindCSS")
+    add_title("DOCUMENTAÇÃO TÉCNICA E CIENTÍFICA\nPLANO DE CORRIDA APP")
+    add_p("Data: Julho de 2026 | Versão 2.4 | Arquitetura: React 18 + Vite + TailwindCSS + Banco de Dados JSON API")
 
-    add_h1("1. Visão Geral do Aplicativo (v2.3)")
-    add_p("O PlanoDeCorrida é uma plataforma web adaptativa de periodização esportiva que gera cronogramas de treinamento científicos e personalizados de acordo com o nível, idade e meta de distância (5K a 42K) do corredor.")
-    add_p("Na versão 2.3, por solicitação expressa de remoção de todos os treinos predefinidos, o catálogo foi esvaziado, mantendo a engine de cálculo de volume, paces e distâncias funcionando de forma limpa e modular.")
+    add_h1("1. Visão Geral e Banco de Dados de 90 Treinos (v2.4)")
+    add_p("O PlanoDeCorrida é uma plataforma web adaptativa de periodização esportiva para corredores de rua de todos os níveis. Na versão 2.4, foi gerado e estruturado o banco de dados oficial completo em src/lib/workouts_api_catalog.json contendo exatamente 90 planos de treinamento.")
+    add_p("Cada plano no banco JSON possui a seguinte estrutura de contrato: id (1 a 90), level ('iniciante', 'intermediario', 'avancado'), title, total_time_minutes, workout_type, structure (warmup, main_set, cooldown) e physiological_goal.")
 
-    add_h1("2. Regra Universal: Fortalecimento Opcional na Segunda-feira")
-    add_p("Em trainingEngine.js e no WeekCard.jsx, a Segunda-feira foi padronizada para todos os níveis como Treino de Fortalecimento com marcação de ⭐ Opcional. Desta forma, o atleta que necessita de repouso após o longão de domingo não perde porcentagem no seu progresso semanal.")
+    add_h1("2. Perfil dos 90 Treinos Científicos")
+    add_h2("Nível Iniciante (30 Treinos - ID 1 a 30)")
+    add_p("Foco em adaptação progressiva, alternância de caminhada/corrida com proporções controladas (1:1 a 3:1), iniciação ao trote contínuo (15 a 50 min), cadência alta de 180 passos/min para proteção articular contra overstriding, e introdução a Fartlek e subidas leves.")
+
+    add_h2("Nível Intermediário (30 Treinos - ID 31 a 60)")
+    add_p("Foco no aumento do volume sustentável em Zona 2, introdução sólida a treinos de limiar anaeróbio (Tempo Run de 25 a 40 min), Fartlek piramidal e queniano, Cruise Intervals no ritmo de 10k/21k, e longões de 14 a 18 km com progressão de ritmo (Fast Finish).")
+
+    add_h2("Nível Avançado (30 Treinos - ID 61 a 90)")
+    add_p("Foco em alta performance, intervalados rigorosos em pista com foco em VO2 máximo severo (10x800m, 15x400m, 6x1200m), Duplo Limiar Norueguês (4x2000m), Over-Under Tempo Runs, Hill Repeats de potência propulsiva e longões de 24 a 28 km com pace exato de maratona e polimento.")
+
+    add_h1("3. Regra Universal: Fortalecimento Opcional na Segunda-feira")
+    add_p("Em trainingEngine.js e no WeekCard.jsx, a Segunda-feira foi padronizada para todos os níveis como Treino de Fortalecimento com marcação de ⭐ Opcional (`isOptional: true`). Desta forma, o atleta que necessita de repouso passivo após o longão de domingo não perde porcentagem no seu progresso semanal.")
 
     out_path = os.path.join(os.path.dirname(__file__), "Documentacao_PlanoDeCorrida.docx")
     doc.save(out_path)
