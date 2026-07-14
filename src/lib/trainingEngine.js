@@ -264,14 +264,23 @@ function buildWeekTemplate(trainingDays, includeStrength, level, weekNumber, isR
   // ---- Distribuição normal ----
   // Domingo sempre será Longão
   week[6].type = 'LONG';
-  week[0].type = 'STRENGTH'; // Forçar segunda-feira com treino físico opcional
-  week[0].isOptional = true;
-  week[0].dayName = 'Segunda (Opcional)';
 
   if (trainingDays >= 2) week[1].type = 'EASY';      // Terça - Leve
   if (trainingDays >= 3) week[3].type = 'INTERVAL';   // Quinta - Intervalado
   if (trainingDays >= 4) week[4].type = 'EASY';       // Sexta - Leve
-  if (trainingDays >= 5) week[2].type = 'TEMPO';      // Quarta - Tempo Run
+
+  // A partir de 5 treinos, Segunda deixa de ser apenas Força e vira um Regenerativo
+  if (trainingDays >= 5) {
+    week[0].type = 'RECOVERY';
+    week[0].isOptional = false;
+    week[0].dayName = 'Segunda';
+  } else {
+    week[0].type = 'STRENGTH';
+    week[0].isOptional = true;
+    week[0].dayName = 'Segunda (Opcional)';
+  }
+
+  if (trainingDays >= 6) week[2].type = 'TEMPO';      // Quarta - Tempo Run
 
   // Preencher os dias vagos com Fortalecimento, Rampa e Cross-Training.
   // Garantimos que o Sábado (index 5) se mantenha como REST absoluto para prevenir lesões.
@@ -365,8 +374,13 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
     (d) => d.type === 'EASY' || d.type === 'INTERVAL' || d.type === 'TEMPO'
   );
   
+  const recoveryDays = weekDays.filter((d) => d.type === 'RECOVERY');
+  // Regenerativos têm quilometragem fixa baseada no nível (curta para não estressar)
+  const recoveryKm = level === 'advanced' ? 8 : (level === 'intermediate' ? 6 : 4);
+  recoveryDays.forEach(d => d.distance = recoveryKm);
+  
   // Garantir que a matemática não quebre se o volume semanal for muito baixo
-  const remainingKm = Math.max(runDays.length, adjustedWeeklyKm - longKm);
+  const remainingKm = Math.max(runDays.length, adjustedWeeklyKm - longKm - (recoveryDays.length * recoveryKm));
   const perRunKm = runDays.length > 0
     ? Math.round((remainingKm / runDays.length) * 10) / 10
     : 0;

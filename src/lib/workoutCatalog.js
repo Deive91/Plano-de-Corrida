@@ -9,7 +9,7 @@ import apiCatalog from './workouts_api_catalog.json';
 // Mapeamento de workout_type para os tipos internos do motor da aplicação
 const TYPE_MAPPING = {
   'continuo': 'EASY',
-  'regenerativo': 'EASY',
+  'regenerativo': 'RECOVERY',
   'longo': 'LONG',
   'intervalado': 'INTERVAL',
   'fartlek': 'INTERVAL',
