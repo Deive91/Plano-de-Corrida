@@ -3,7 +3,7 @@
     {
       "id": 1,
       "level": "iniciante",
-      "title": "Adaptação Articular e Transição Run-Walk 1:1",
+      "title": "Caminhada e Corrida Leve - 30 min",
       "total_time_minutes": 30,
       "workout_type": "continuo",
       "structure": {
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "level": "iniciante",
-      "title": "Base Aeróbia Leve Run-Walk 2:1",
+      "title": "Caminhada e Corrida Leve - 33 min",
       "total_time_minutes": 33,
       "workout_type": "continuo",
       "structure": {
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "level": "iniciante",
-      "title": "Evolução Contínua Run-Walk 3:1",
+      "title": "Caminhada e Corrida Leve - 35 min",
       "total_time_minutes": 35,
       "workout_type": "continuo",
       "structure": {
@@ -42,7 +42,7 @@
     {
       "id": 4,
       "level": "iniciante",
-      "title": "Iniciação de Volume Run-Walk 4:1",
+      "title": "Caminhada e Corrida Leve - 38 min",
       "total_time_minutes": 38,
       "workout_type": "continuo",
       "structure": {
@@ -55,7 +55,7 @@
     {
       "id": 5,
       "level": "iniciante",
-      "title": "Longão Introdutório: Tempo em Pé (35 min)",
+      "title": "Longão - 45 min",
       "total_time_minutes": 45,
       "workout_type": "longo",
       "structure": {
@@ -68,7 +68,7 @@
     {
       "id": 6,
       "level": "iniciante",
-      "title": "Regenerativo Ativo de Estabilização",
+      "title": "Corrida de Recuperação - 30 min",
       "total_time_minutes": 30,
       "workout_type": "regenerativo",
       "structure": {
@@ -81,7 +81,7 @@
     {
       "id": 7,
       "level": "iniciante",
-      "title": "Fartlek Lúdico de Adaptação",
+      "title": "Treino de Ritmo Variado (Fartlek) - 32 min",
       "total_time_minutes": 32,
       "workout_type": "fartlek",
       "structure": {
@@ -94,7 +94,7 @@
     {
       "id": 8,
       "level": "iniciante",
-      "title": "Corrida Aeróbia Contínua 15 Minutos",
+      "title": "Corrida Leve - 30 min",
       "total_time_minutes": 30,
       "workout_type": "continuo",
       "structure": {
@@ -107,7 +107,7 @@
     {
       "id": 9,
       "level": "iniciante",
-      "title": "Iniciação em Subidas Leves (Hill Adapts)",
+      "title": "Treino de Subidas - 33 min",
       "total_time_minutes": 33,
       "workout_type": "hill_repeats",
       "structure": {
@@ -120,7 +120,7 @@
     {
       "id": 10,
       "level": "iniciante",
-      "title": "Longão Aeróbio com Pausas Estratégicas (40 min)",
+      "title": "Longão - 50 min",
       "total_time_minutes": 50,
       "workout_type": "longo",
       "structure": {
@@ -133,7 +133,7 @@
     {
       "id": 11,
       "level": "iniciante",
-      "title": "Corrida Contínua Progressiva 20 Minutos",
+      "title": "Corrida Leve - 35 min",
       "total_time_minutes": 35,
       "workout_type": "continuo",
       "structure": {
@@ -146,7 +146,7 @@
     {
       "id": 12,
       "level": "iniciante",
-      "title": "Fartlek Piramidal Leve",
+      "title": "Treino de Ritmo Variado (Fartlek) - 34 min",
       "total_time_minutes": 34,
       "workout_type": "fartlek",
       "structure": {
@@ -159,7 +159,7 @@
     {
       "id": 13,
       "level": "iniciante",
-      "title": "Intervalado Curto de Iniciação (Tiros Leves)",
+      "title": "Treino de Tiros (Intervalado) - 32 min",
       "total_time_minutes": 32,
       "workout_type": "intervalado",
       "structure": {
@@ -172,7 +172,7 @@
     {
       "id": 14,
       "level": "iniciante",
-      "title": "Regenerativo de Cadência Controlada",
+      "title": "Corrida de Recuperação - 30 min",
       "total_time_minutes": 30,
       "workout_type": "regenerativo",
       "structure": {
@@ -185,7 +185,7 @@
     {
       "id": 15,
       "level": "iniciante",
-      "title": "Marco de Resistência: Primeiro Longão Contínuo (30 min)",
+      "title": "Longão - 45 min",
       "total_time_minutes": 45,
       "workout_type": "longo",
       "structure": {
@@ -198,7 +198,7 @@
     {
       "id": 16,
       "level": "iniciante",
-      "title": "Corrida Aeróbia de Estabilidade 25 Minutos",
+      "title": "Corrida Leve - 38 min",
       "total_time_minutes": 38,
       "workout_type": "continuo",
       "structure": {
@@ -211,7 +211,7 @@
     {
       "id": 17,
       "level": "iniciante",
-      "title": "Iniciação ao Limiar Aeróbico (Tempo Run Leve)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 35 min",
       "total_time_minutes": 35,
       "workout_type": "tempo_run",
       "structure": {
@@ -224,7 +224,7 @@
     {
       "id": 18,
       "level": "iniciante",
-      "title": "Repetições de Subida Moderadas (Hill Power)",
+      "title": "Treino de Subidas - 36 min",
       "total_time_minutes": 36,
       "workout_type": "hill_repeats",
       "structure": {
@@ -237,7 +237,7 @@
     {
       "id": 19,
       "level": "iniciante",
-      "title": "Fartlek Queniano de Iniciação",
+      "title": "Treino de Ritmo Variado (Fartlek) - 35 min",
       "total_time_minutes": 35,
       "workout_type": "fartlek",
       "structure": {
@@ -250,7 +250,7 @@
     {
       "id": 20,
       "level": "iniciante",
-      "title": "Longão Progressivo Leve de 40 Minutos",
+      "title": "Longão - 55 min",
       "total_time_minutes": 55,
       "workout_type": "longo",
       "structure": {
@@ -263,7 +263,7 @@
     {
       "id": 21,
       "level": "iniciante",
-      "title": "Corrida Aeróbia Constante 35 Minutos",
+      "title": "Corrida Leve - 48 min",
       "total_time_minutes": 48,
       "workout_type": "continuo",
       "structure": {
@@ -276,7 +276,7 @@
     {
       "id": 22,
       "level": "iniciante",
-      "title": "Intervalado de 400 metros (Ritmo Controlado)",
+      "title": "Treino de Tiros (Intervalado) - 38 min",
       "total_time_minutes": 38,
       "workout_type": "intervalado",
       "structure": {
@@ -289,7 +289,7 @@
     {
       "id": 23,
       "level": "iniciante",
-      "title": "Regenerativo com Reta de Aceleração (Strides)",
+      "title": "Corrida de Recuperação - 34 min",
       "total_time_minutes": 34,
       "workout_type": "regenerativo",
       "structure": {
@@ -302,7 +302,7 @@
     {
       "id": 24,
       "level": "iniciante",
-      "title": "Tempo Run Fracionado (2x8 min)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 40 min",
       "total_time_minutes": 40,
       "workout_type": "tempo_run",
       "structure": {
@@ -315,7 +315,7 @@
     {
       "id": 25,
       "level": "iniciante",
-      "title": "Longão Aeróbio de Consolidação (50 min)",
+      "title": "Longão - 60 min",
       "total_time_minutes": 60,
       "workout_type": "longo",
       "structure": {
@@ -328,7 +328,7 @@
     {
       "id": 26,
       "level": "iniciante",
-      "title": "Corrida Aeróbia com Variação de Terreno",
+      "title": "Corrida Leve - 42 min",
       "total_time_minutes": 42,
       "workout_type": "continuo",
       "structure": {
@@ -341,7 +341,7 @@
     {
       "id": 27,
       "level": "iniciante",
-      "title": "Fartlek Misto de Fim de Ciclo",
+      "title": "Treino de Ritmo Variado (Fartlek) - 38 min",
       "total_time_minutes": 38,
       "workout_type": "fartlek",
       "structure": {
@@ -354,7 +354,7 @@
     {
       "id": 28,
       "level": "iniciante",
-      "title": "Intervalado Crescente (200m - 400m - 600m)",
+      "title": "Treino de Tiros (Intervalado) - 40 min",
       "total_time_minutes": 40,
       "workout_type": "intervalado",
       "structure": {
@@ -367,7 +367,7 @@
     {
       "id": 29,
       "level": "iniciante",
-      "title": "Regenerativo de Polimento (Tapering Leve)",
+      "title": "Corrida de Recuperação - 30 min",
       "total_time_minutes": 30,
       "workout_type": "regenerativo",
       "structure": {
@@ -380,7 +380,7 @@
     {
       "id": 30,
       "level": "iniciante",
-      "title": "Longão de Formatura: Primeira Hora Contínua (60 min)",
+      "title": "Longão - 70 min",
       "total_time_minutes": 70,
       "workout_type": "longo",
       "structure": {
@@ -393,7 +393,7 @@
     {
       "id": 31,
       "level": "intermediario",
-      "title": "Base Aeróbia Consolidada 45 Minutos",
+      "title": "Corrida Leve - 57 min",
       "total_time_minutes": 57,
       "workout_type": "continuo",
       "structure": {
@@ -406,7 +406,7 @@
     {
       "id": 32,
       "level": "intermediario",
-      "title": "Tempo Run Contínuo no Limiar de Lactato (20 min)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 45 min",
       "total_time_minutes": 45,
       "workout_type": "tempo_run",
       "structure": {
@@ -419,7 +419,7 @@
     {
       "id": 33,
       "level": "intermediario",
-      "title": "Intervalado de VO2 Moderado (6x600m)",
+      "title": "Treino de Tiros (Intervalado) - 46 min",
       "total_time_minutes": 46,
       "workout_type": "intervalado",
       "structure": {
@@ -432,7 +432,7 @@
     {
       "id": 34,
       "level": "intermediario",
-      "title": "Regenerativo Ativo + Strides Técnicos",
+      "title": "Corrida de Recuperação - 42 min",
       "total_time_minutes": 42,
       "workout_type": "regenerativo",
       "structure": {
@@ -445,7 +445,7 @@
     {
       "id": 35,
       "level": "intermediario",
-      "title": "Longão Aeróbio Puro de Construção (70 min)",
+      "title": "Longão - 80 min",
       "total_time_minutes": 80,
       "workout_type": "longo",
       "structure": {
@@ -458,7 +458,7 @@
     {
       "id": 36,
       "level": "intermediario",
-      "title": "Fartlek Piramidal de Intensidade (1-2-3-2-1)",
+      "title": "Treino de Ritmo Variado (Fartlek) - 44 min",
       "total_time_minutes": 44,
       "workout_type": "fartlek",
       "structure": {
@@ -471,7 +471,7 @@
     {
       "id": 37,
       "level": "intermediario",
-      "title": "Cruise Intervals no Limiar (3x10 min)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 55 min",
       "total_time_minutes": 55,
       "workout_type": "tempo_run",
       "structure": {
@@ -484,7 +484,7 @@
     {
       "id": 38,
       "level": "intermediario",
-      "title": "Hill Repeats de Força Explosiva (10x45 seg)",
+      "title": "Treino de Subidas - 45 min",
       "total_time_minutes": 45,
       "workout_type": "hill_repeats",
       "structure": {
@@ -497,7 +497,7 @@
     {
       "id": 39,
       "level": "intermediario",
-      "title": "Corrida Aeróbia Extensa 55 Minutos",
+      "title": "Corrida Leve - 65 min",
       "total_time_minutes": 65,
       "workout_type": "continuo",
       "structure": {
@@ -510,7 +510,7 @@
     {
       "id": 40,
       "level": "intermediario",
-      "title": "Longão Fast Finish — Finalização Forte (80 min)",
+      "title": "Longão - 90 min",
       "total_time_minutes": 90,
       "workout_type": "longo",
       "structure": {
@@ -523,7 +523,7 @@
     {
       "id": 41,
       "level": "intermediario",
-      "title": "Intervalado de 800m (Pacing Clássico de 10k)",
+      "title": "Treino de Tiros (Intervalado) - 50 min",
       "total_time_minutes": 50,
       "workout_type": "intervalado",
       "structure": {
@@ -536,7 +536,7 @@
     {
       "id": 42,
       "level": "intermediario",
-      "title": "Regenerativo de Descompressão 35 Minutos",
+      "title": "Corrida de Recuperação - 42 min",
       "total_time_minutes": 42,
       "workout_type": "regenerativo",
       "structure": {
@@ -549,7 +549,7 @@
     {
       "id": 43,
       "level": "intermediario",
-      "title": "Tempo Run Progressivo (30 Minutos)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 52 min",
       "total_time_minutes": 52,
       "workout_type": "tempo_run",
       "structure": {
@@ -562,7 +562,7 @@
     {
       "id": 44,
       "level": "intermediario",
-      "title": "Fartlek Queniano Contínuo (1 min forte / 1 min leve x 15)",
+      "title": "Treino de Ritmo Variado (Fartlek) - 48 min",
       "total_time_minutes": 48,
       "workout_type": "fartlek",
       "structure": {
@@ -575,7 +575,7 @@
     {
       "id": 45,
       "level": "intermediario",
-      "title": "Longão Blocado com Ritmo de Prova (90 min)",
+      "title": "Longão - 100 min",
       "total_time_minutes": 100,
       "workout_type": "longo",
       "structure": {
@@ -588,7 +588,7 @@
     {
       "id": 46,
       "level": "intermediario",
-      "title": "Corrida Aeróbia de Volume 60 Minutos",
+      "title": "Corrida Leve - 72 min",
       "total_time_minutes": 72,
       "workout_type": "continuo",
       "structure": {
@@ -601,7 +601,7 @@
     {
       "id": 47,
       "level": "intermediario",
-      "title": "Intervalado Curto de Velocidade (10x400m)",
+      "title": "Treino de Tiros (Intervalado) - 52 min",
       "total_time_minutes": 52,
       "workout_type": "intervalado",
       "structure": {
@@ -614,7 +614,7 @@
     {
       "id": 48,
       "level": "intermediario",
-      "title": "Regenerativo de Manutenção 40 Minutos",
+      "title": "Corrida de Recuperação - 48 min",
       "total_time_minutes": 48,
       "workout_type": "regenerativo",
       "structure": {
@@ -627,7 +627,7 @@
     {
       "id": 49,
       "level": "intermediario",
-      "title": "Tempo Run Misto (15 min + 10 min no Limiar)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 52 min",
       "total_time_minutes": 52,
       "workout_type": "tempo_run",
       "structure": {
@@ -640,7 +640,7 @@
     {
       "id": 50,
       "level": "intermediario",
-      "title": "Longão Progressivo de Endurance (95 min)",
+      "title": "Longão - 105 min",
       "total_time_minutes": 105,
       "workout_type": "longo",
       "structure": {
@@ -653,7 +653,7 @@
     {
       "id": 51,
       "level": "intermediario",
-      "title": "Hill Repeats e Limiar Combinados",
+      "title": "Treino de Subidas - 52 min",
       "total_time_minutes": 52,
       "workout_type": "hill_repeats",
       "structure": {
@@ -666,7 +666,7 @@
     {
       "id": 52,
       "level": "intermediario",
-      "title": "Corrida Aeróbia progressiva para Z3 (50 Minutos)",
+      "title": "Corrida Leve - 60 min",
       "total_time_minutes": 60,
       "workout_type": "continuo",
       "structure": {
@@ -679,7 +679,7 @@
     {
       "id": 53,
       "level": "intermediario",
-      "title": "Intervalado de 1000m (Cruzeiros de 10 km)",
+      "title": "Treino de Tiros (Intervalado) - 55 min",
       "total_time_minutes": 55,
       "workout_type": "intervalado",
       "structure": {
@@ -692,7 +692,7 @@
     {
       "id": 54,
       "level": "intermediario",
-      "title": "Fartlek Australiano (Surge Run)",
+      "title": "Treino de Ritmo Variado (Fartlek) - 45 min",
       "total_time_minutes": 45,
       "workout_type": "fartlek",
       "structure": {
@@ -705,7 +705,7 @@
     {
       "id": 55,
       "level": "intermediario",
-      "title": "Longão Fast Finish de Meia-Maratona (105 min)",
+      "title": "Longão - 115 min",
       "total_time_minutes": 115,
       "workout_type": "longo",
       "structure": {
@@ -718,7 +718,7 @@
     {
       "id": 56,
       "level": "intermediario",
-      "title": "Regenerativo de Polimento (Tapering Intermediário)",
+      "title": "Corrida de Recuperação - 38 min",
       "total_time_minutes": 38,
       "workout_type": "regenerativo",
       "structure": {
@@ -731,7 +731,7 @@
     {
       "id": 57,
       "level": "intermediario",
-      "title": "Intervalado Misto (2x1200m + 2x800m + 2x400m)",
+      "title": "Treino de Tiros (Intervalado) - 56 min",
       "total_time_minutes": 56,
       "workout_type": "intervalado",
       "structure": {
@@ -744,7 +744,7 @@
     {
       "id": 58,
       "level": "intermediario",
-      "title": "Tempo Run de 8 km (ou 35 Minutos Contínuos)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 55 min",
       "total_time_minutes": 55,
       "workout_type": "tempo_run",
       "structure": {
@@ -757,7 +757,7 @@
     {
       "id": 59,
       "level": "intermediario",
-      "title": "Corrida Aeróbia com Strides de Ativação Pré-Longão",
+      "title": "Corrida Leve - 42 min",
       "total_time_minutes": 42,
       "workout_type": "continuo",
       "structure": {
@@ -770,7 +770,7 @@
     {
       "id": 60,
       "level": "intermediario",
-      "title": "Longão de Formatura: Simulação de Meia-Maratona (120 min)",
+      "title": "Longão - 130 min",
       "total_time_minutes": 130,
       "workout_type": "longo",
       "structure": {
@@ -783,7 +783,7 @@
     {
       "id": 61,
       "level": "avancado",
-      "title": "Corrida de Manutenção Aeróbia e Cadência Alta (60 min)",
+      "title": "Corrida Leve - 72 min",
       "total_time_minutes": 72,
       "workout_type": "continuo",
       "structure": {
@@ -796,7 +796,7 @@
     {
       "id": 62,
       "level": "avancado",
-      "title": "Limiar Duplo Norueguês - Sessão A (Tempo Run 4x2000m)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 65 min",
       "total_time_minutes": 65,
       "workout_type": "tempo_run",
       "structure": {
@@ -809,7 +809,7 @@
     {
       "id": 63,
       "level": "avancado",
-      "title": "Intervalado de VO2 Máximo Severo (10x800m em Pista)",
+      "title": "Treino de Tiros (Intervalado) - 62 min",
       "total_time_minutes": 62,
       "workout_type": "intervalado",
       "structure": {
@@ -822,7 +822,7 @@
     {
       "id": 64,
       "level": "avancado",
-      "title": "Regenerativo de Ultra Baixa Intensidade (Recovery Run)",
+      "title": "Corrida de Recuperação - 50 min",
       "total_time_minutes": 50,
       "workout_type": "regenerativo",
       "structure": {
@@ -835,7 +835,7 @@
     {
       "id": 65,
       "level": "avancado",
-      "title": "Longão Aeróbio de Base Avançada (90 min em Z2)",
+      "title": "Longão - 100 min",
       "total_time_minutes": 100,
       "workout_type": "longo",
       "structure": {
@@ -848,7 +848,7 @@
     {
       "id": 66,
       "level": "avancado",
-      "title": "Fartlek Etíope de Variação de Pace (12x [2 min forte / 1 min flutuante])",
+      "title": "Treino de Ritmo Variado (Fartlek) - 58 min",
       "total_time_minutes": 58,
       "workout_type": "fartlek",
       "structure": {
@@ -861,7 +861,7 @@
     {
       "id": 67,
       "level": "avancado",
-      "title": "Over-Under Tempo Run (Alternância no Limiar - 40 min)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 65 min",
       "total_time_minutes": 65,
       "workout_type": "tempo_run",
       "structure": {
@@ -874,7 +874,7 @@
     {
       "id": 68,
       "level": "avancado",
-      "title": "Hill Repeats de Potência e Resistência (12x60 seg)",
+      "title": "Treino de Subidas - 55 min",
       "total_time_minutes": 55,
       "workout_type": "hill_repeats",
       "structure": {
@@ -887,7 +887,7 @@
     {
       "id": 69,
       "level": "avancado",
-      "title": "Corrida Aeróbia de Volume Moderado (75 min em Z2)",
+      "title": "Corrida Leve - 85 min",
       "total_time_minutes": 85,
       "workout_type": "continuo",
       "structure": {
@@ -900,7 +900,7 @@
     {
       "id": 70,
       "level": "avancado",
-      "title": "Longão Blocado com Ritmo de Maratona (24 km / 120 min)",
+      "title": "Longão - 130 min",
       "total_time_minutes": 130,
       "workout_type": "longo",
       "structure": {
@@ -913,7 +913,7 @@
     {
       "id": 71,
       "level": "avancado",
-      "title": "Intervalado Curto de Potência Anaeróbia (15x400m em ritmo de 3k)",
+      "title": "Treino de Tiros (Intervalado) - 56 min",
       "total_time_minutes": 56,
       "workout_type": "intervalado",
       "structure": {
@@ -926,7 +926,7 @@
     {
       "id": 72,
       "level": "avancado",
-      "title": "Regenerativo Ativo e Soltura de Pista (45 min)",
+      "title": "Corrida de Recuperação - 55 min",
       "total_time_minutes": 55,
       "workout_type": "regenerativo",
       "structure": {
@@ -939,7 +939,7 @@
     {
       "id": 73,
       "level": "avancado",
-      "title": "Limiar Duplo Norueguês - Sessão B (Cruise 5x1600m com baixo descanso)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 62 min",
       "total_time_minutes": 62,
       "workout_type": "tempo_run",
       "structure": {
@@ -952,7 +952,7 @@
     {
       "id": 74,
       "level": "avancado",
-      "title": "Fartlek de Pirâmide Dupla de VO2",
+      "title": "Treino de Ritmo Variado (Fartlek) - 56 min",
       "total_time_minutes": 56,
       "workout_type": "fartlek",
       "structure": {
@@ -965,7 +965,7 @@
     {
       "id": 75,
       "level": "avancado",
-      "title": "Longão Específico de Maratona: Fast Finish (28 km / 150 min)",
+      "title": "Longão - 160 min",
       "total_time_minutes": 160,
       "workout_type": "longo",
       "structure": {
@@ -978,7 +978,7 @@
     {
       "id": 76,
       "level": "avancado",
-      "title": "Corrida Aeróbia de Regeneração Nervosa (50 min)",
+      "title": "Corrida Leve - 60 min",
       "total_time_minutes": 60,
       "workout_type": "continuo",
       "structure": {
@@ -991,7 +991,7 @@
     {
       "id": 77,
       "level": "avancado",
-      "title": "Intervalado de Pista Longo (4x1600m no Ritmo de 5k)",
+      "title": "Treino de Tiros (Intervalado) - 60 min",
       "total_time_minutes": 60,
       "workout_type": "intervalado",
       "structure": {
@@ -1004,7 +1004,7 @@
     {
       "id": 78,
       "level": "avancado",
-      "title": "Regenerativo Ativo + 8 Strides Explosivos",
+      "title": "Corrida de Recuperação - 50 min",
       "total_time_minutes": 50,
       "workout_type": "regenerativo",
       "structure": {
@@ -1017,7 +1017,7 @@
     {
       "id": 79,
       "level": "avancado",
-      "title": "Tempo Run Longo Contínuo (12 km ou 45 min no Limiar)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 68 min",
       "total_time_minutes": 68,
       "workout_type": "tempo_run",
       "structure": {
@@ -1030,7 +1030,7 @@
     {
       "id": 80,
       "level": "avancado",
-      "title": "Longão Pico de Volume: Progressivo Controlado (30-32 km / 165 min)",
+      "title": "Longão - 175 min",
       "total_time_minutes": 175,
       "workout_type": "longo",
       "structure": {
@@ -1043,7 +1043,7 @@
     {
       "id": 81,
       "level": "avancado",
-      "title": "Hill Repeats Misto (8x60s subida + 4x200m tiros de pista)",
+      "title": "Treino de Subidas - 56 min",
       "total_time_minutes": 56,
       "workout_type": "hill_repeats",
       "structure": {
@@ -1056,7 +1056,7 @@
     {
       "id": 82,
       "level": "avancado",
-      "title": "Corrida Aeróbia de Consolidação (70 min em Z2)",
+      "title": "Corrida Leve - 82 min",
       "total_time_minutes": 82,
       "workout_type": "continuo",
       "structure": {
@@ -1069,7 +1069,7 @@
     {
       "id": 83,
       "level": "avancado",
-      "title": "Intervalado de Pacing de Elite (3x2000m em Ritmo de 10k)",
+      "title": "Treino de Tiros (Intervalado) - 62 min",
       "total_time_minutes": 62,
       "workout_type": "intervalado",
       "structure": {
@@ -1082,7 +1082,7 @@
     {
       "id": 84,
       "level": "avancado",
-      "title": "Fartlek de Tapering (8x [1:30 min forte / 1:30 min leve])",
+      "title": "Treino de Ritmo Variado (Fartlek) - 48 min",
       "total_time_minutes": 48,
       "workout_type": "fartlek",
       "structure": {
@@ -1095,7 +1095,7 @@
     {
       "id": 85,
       "level": "avancado",
-      "title": "Longão de Tapering: Redução com Memorização de Pace (18-20 km / 100 min)",
+      "title": "Longão - 110 min",
       "total_time_minutes": 110,
       "workout_type": "longo",
       "structure": {
@@ -1108,7 +1108,7 @@
     {
       "id": 86,
       "level": "avancado",
-      "title": "Corrida Aeróbia Leve Pré-Polimento (50 min)",
+      "title": "Corrida Leve - 60 min",
       "total_time_minutes": 60,
       "workout_type": "continuo",
       "structure": {
@@ -1121,7 +1121,7 @@
     {
       "id": 87,
       "level": "avancado",
-      "title": "Intervalado Sharpener (6x400m em Ritmo de 3k + 2x200m soltos)",
+      "title": "Treino de Tiros (Intervalado) - 44 min",
       "total_time_minutes": 44,
       "workout_type": "intervalado",
       "structure": {
@@ -1134,7 +1134,7 @@
     {
       "id": 88,
       "level": "avancado",
-      "title": "Regenerativo de Tapering Final (30 min)",
+      "title": "Corrida de Recuperação - 40 min",
       "total_time_minutes": 40,
       "workout_type": "regenerativo",
       "structure": {
@@ -1147,7 +1147,7 @@
     {
       "id": 89,
       "level": "avancado",
-      "title": "Ativação Pré-Prova (Shakeout Run - 25 min + 4 Strides)",
+      "title": "Treino de Ritmo Contínuo (Tempo Run) - 35 min",
       "total_time_minutes": 35,
       "workout_type": "tempo_run",
       "structure": {
@@ -1160,7 +1160,7 @@
     {
       "id": 90,
       "level": "avancado",
-      "title": "Longão Final de Tapering: Dress Rehearsal Leve (14-16 km / 75 min)",
+      "title": "Longão - 85 min",
       "total_time_minutes": 85,
       "workout_type": "longo",
       "structure": {
