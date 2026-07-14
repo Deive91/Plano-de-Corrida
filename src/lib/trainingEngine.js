@@ -318,7 +318,7 @@ function formatSecondsToPace(totalSeconds) {
 
 // ---- Cálculo de distâncias por treino ----
 
-function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, level, age, targetDistance, weekNumber, totalWeeks, currentPace, goalPace, gender) {
+function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, level, age, targetDistance, weekNumber, totalWeeks, currentPace, goalPace, _gender) {
   const recoveryMultiplier = isRecoveryWeek ? 0.7 : (isTaperWeek ? 0.5 : 1.0);
   const adjustedWeeklyKm = weeklyKm * recoveryMultiplier;
 

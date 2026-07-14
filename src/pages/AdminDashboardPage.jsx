@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Users, LayoutDashboard, Trash2 } from 'lucide-react';
 import { getAllUsers, deleteUser } from '../lib/auth';
 import { getAllPlansForAdmin } from '../lib/storage';
@@ -9,18 +9,18 @@ export default function AdminDashboardPage() {
   const [plans, setPlans] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const loadData = async () => {
+  const loadData = useCallback(async () => {
     setLoading(true);
     const fetchedUsers = await getAllUsers();
     const fetchedPlans = await getAllPlansForAdmin();
     setUsers(fetchedUsers);
     setPlans(fetchedPlans);
     setLoading(false);
-  };
+  }, []);
 
   useEffect(() => {
     loadData();
-  }, []);
+  }, [loadData]);
 
   const handleDeleteUser = async (id) => {
     if (window.confirm('Tem certeza que deseja excluir este usuário? O plano dele também será apagado.')) {
