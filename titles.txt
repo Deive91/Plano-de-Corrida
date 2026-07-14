@@ -1,0 +1,90 @@
+1 | iniciante | continuo | Adaptação Articular e Transição Run-Walk 1:1
+2 | iniciante | continuo | Base Aeróbia Leve Run-Walk 2:1
+3 | iniciante | continuo | Evolução Contínua Run-Walk 3:1
+4 | iniciante | continuo | Iniciação de Volume Run-Walk 4:1
+5 | iniciante | longo | Longão Introdutório: Tempo em Pé (35 min)
+6 | iniciante | regenerativo | Regenerativo Ativo de Estabilização
+7 | iniciante | fartlek | Fartlek Lúdico de Adaptação
+8 | iniciante | continuo | Corrida Aeróbia Contínua 15 Minutos
+9 | iniciante | hill_repeats | Iniciação em Subidas Leves (Hill Adapts)
+10 | iniciante | longo | Longão Aeróbio com Pausas Estratégicas (40 min)
+11 | iniciante | continuo | Corrida Contínua Progressiva 20 Minutos
+12 | iniciante | fartlek | Fartlek Piramidal Leve
+13 | iniciante | intervalado | Intervalado Curto de Iniciação (Tiros Leves)
+14 | iniciante | regenerativo | Regenerativo de Cadência Controlada
+15 | iniciante | longo | Marco de Resistência: Primeiro Longão Contínuo (30 min)
+16 | iniciante | continuo | Corrida Aeróbia de Estabilidade 25 Minutos
+17 | iniciante | tempo_run | Iniciação ao Limiar Aeróbico (Tempo Run Leve)
+18 | iniciante | hill_repeats | Repetições de Subida Moderadas (Hill Power)
+19 | iniciante | fartlek | Fartlek Queniano de Iniciação
+20 | iniciante | longo | Longão Progressivo Leve de 40 Minutos
+21 | iniciante | continuo | Corrida Aeróbia Constante 35 Minutos
+22 | iniciante | intervalado | Intervalado de 400 metros (Ritmo Controlado)
+23 | iniciante | regenerativo | Regenerativo com Reta de Aceleração (Strides)
+24 | iniciante | tempo_run | Tempo Run Fracionado (2x8 min)
+25 | iniciante | longo | Longão Aeróbio de Consolidação (50 min)
+26 | iniciante | continuo | Corrida Aeróbia com Variação de Terreno
+27 | iniciante | fartlek | Fartlek Misto de Fim de Ciclo
+28 | iniciante | intervalado | Intervalado Crescente (200m - 400m - 600m)
+29 | iniciante | regenerativo | Regenerativo de Polimento (Tapering Leve)
+30 | iniciante | longo | Longão de Formatura: Primeira Hora Contínua (60 min)
+31 | intermediario | continuo | Base Aeróbia Consolidada 45 Minutos
+32 | intermediario | tempo_run | Tempo Run Contínuo no Limiar de Lactato (20 min)
+33 | intermediario | intervalado | Intervalado de VO2 Moderado (6x600m)
+34 | intermediario | regenerativo | Regenerativo Ativo + Strides Técnicos
+35 | intermediario | longo | Longão Aeróbio Puro de Construção (70 min)
+36 | intermediario | fartlek | Fartlek Piramidal de Intensidade (1-2-3-2-1)
+37 | intermediario | tempo_run | Cruise Intervals no Limiar (3x10 min)
+38 | intermediario | hill_repeats | Hill Repeats de Força Explosiva (10x45 seg)
+39 | intermediario | continuo | Corrida Aeróbia Extensa 55 Minutos
+40 | intermediario | longo | Longão Fast Finish — Finalização Forte (80 min)
+41 | intermediario | intervalado | Intervalado de 800m (Pacing Clássico de 10k)
+42 | intermediario | regenerativo | Regenerativo de Descompressão 35 Minutos
+43 | intermediario | tempo_run | Tempo Run Progressivo (30 Minutos)
+44 | intermediario | fartlek | Fartlek Queniano Contínuo (1 min forte / 1 min leve x 15)
+45 | intermediario | longo | Longão Blocado com Ritmo de Prova (90 min)
+46 | intermediario | continuo | Corrida Aeróbia de Volume 60 Minutos
+47 | intermediario | intervalado | Intervalado Curto de Velocidade (10x400m)
+48 | intermediario | regenerativo | Regenerativo de Manutenção 40 Minutos
+49 | intermediario | tempo_run | Tempo Run Misto (15 min + 10 min no Limiar)
+50 | intermediario | longo | Longão Progressivo de Endurance (95 min)
+51 | intermediario | hill_repeats | Hill Repeats e Limiar Combinados
+52 | intermediario | continuo | Corrida Aeróbia progressiva para Z3 (50 Minutos)
+53 | intermediario | intervalado | Intervalado de 1000m (Cruzeiros de 10 km)
+54 | intermediario | fartlek | Fartlek Australiano (Surge Run)
+55 | intermediario | longo | Longão Fast Finish de Meia-Maratona (105 min)
+56 | intermediario | regenerativo | Regenerativo de Polimento (Tapering Intermediário)
+57 | intermediario | intervalado | Intervalado Misto (2x1200m + 2x800m + 2x400m)
+58 | intermediario | tempo_run | Tempo Run de 8 km (ou 35 Minutos Contínuos)
+59 | intermediario | continuo | Corrida Aeróbia com Strides de Ativação Pré-Longão
+60 | intermediario | longo | Longão de Formatura: Simulação de Meia-Maratona (120 min)
+61 | avancado | continuo | Corrida de Manutenção Aeróbia e Cadência Alta (60 min)
+62 | avancado | tempo_run | Limiar Duplo Norueguês - Sessão A (Tempo Run 4x2000m)
+63 | avancado | intervalado | Intervalado de VO2 Máximo Severo (10x800m em Pista)
+64 | avancado | regenerativo | Regenerativo de Ultra Baixa Intensidade (Recovery Run)
+65 | avancado | longo | Longão Aeróbio de Base Avançada (90 min em Z2)
+66 | avancado | fartlek | Fartlek Etíope de Variação de Pace (12x [2 min forte / 1 min flutuante])
+67 | avancado | tempo_run | Over-Under Tempo Run (Alternância no Limiar - 40 min)
+68 | avancado | hill_repeats | Hill Repeats de Potência e Resistência (12x60 seg)
+69 | avancado | continuo | Corrida Aeróbia de Volume Moderado (75 min em Z2)
+70 | avancado | longo | Longão Blocado com Ritmo de Maratona (24 km / 120 min)
+71 | avancado | intervalado | Intervalado Curto de Potência Anaeróbia (15x400m em ritmo de 3k)
+72 | avancado | regenerativo | Regenerativo Ativo e Soltura de Pista (45 min)
+73 | avancado | tempo_run | Limiar Duplo Norueguês - Sessão B (Cruise 5x1600m com baixo descanso)
+74 | avancado | fartlek | Fartlek de Pirâmide Dupla de VO2
+75 | avancado | longo | Longão Específico de Maratona: Fast Finish (28 km / 150 min)
+76 | avancado | continuo | Corrida Aeróbia de Regeneração Nervosa (50 min)
+77 | avancado | intervalado | Intervalado de Pista Longo (4x1600m no Ritmo de 5k)
+78 | avancado | regenerativo | Regenerativo Ativo + 8 Strides Explosivos
+79 | avancado | tempo_run | Tempo Run Longo Contínuo (12 km ou 45 min no Limiar)
+80 | avancado | longo | Longão Pico de Volume: Progressivo Controlado (30-32 km / 165 min)
+81 | avancado | hill_repeats | Hill Repeats Misto (8x60s subida + 4x200m tiros de pista)
+82 | avancado | continuo | Corrida Aeróbia de Consolidação (70 min em Z2)
+83 | avancado | intervalado | Intervalado de Pacing de Elite (3x2000m em Ritmo de 10k)
+84 | avancado | fartlek | Fartlek de Tapering (8x [1:30 min forte / 1:30 min leve])
+85 | avancado | longo | Longão de Tapering: Redução com Memorização de Pace (18-20 km / 100 min)
+86 | avancado | continuo | Corrida Aeróbia Leve Pré-Polimento (50 min)
+87 | avancado | intervalado | Intervalado Sharpener (6x400m em Ritmo de 3k + 2x200m soltos)
+88 | avancado | regenerativo | Regenerativo de Tapering Final (30 min)
+89 | avancado | tempo_run | Ativação Pré-Prova (Shakeout Run - 25 min + 4 Strides)
+90 | avancado | longo | Longão Final de Tapering: Dress Rehearsal Leve (14-16 km / 75 min)
