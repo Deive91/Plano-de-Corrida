@@ -55,15 +55,15 @@
     {
       "id": 5,
       "level": "iniciante",
-      "title": "Longão Adaptativo Run-Walk 5:1",
-      "total_time_minutes": 42,
+      "title": "Longão Introdutório: Tempo em Pé (35 min)",
+      "total_time_minutes": 45,
       "workout_type": "longo",
       "structure": {
-        "warmup": "6 min de caminhada leve a moderada em Z1 / PSE 2.",
-        "main_set": "6 repetições de [5 min de corrida aeróbia contínua em Z2 / PSE 4 + 1 min de caminhada em Z1 / PSE 2].",
-        "cooldown": "6 min de caminhada tranquila com exercícios de relaxamento dos ombros."
+        "warmup": "10 min de caminhada progressiva em Z1 / PSE 2, partindo de ritmo passeio até caminhada firme com braços soltos.",
+        "main_set": "25 min alternando [4 min de trote leve em Z2 / PSE 3-4 + 1 min de caminhada ativa em Z1 / PSE 2]. O foco não é velocidade, mas sim acumular tempo em pé com boa postura. Cadência alvo: 170-175 SPM.",
+        "cooldown": "10 min de caminhada desacelerando progressivamente + alongamento estático leve de panturrilhas e quadríceps (30 seg cada perna)."
       },
-      "physiological_goal": "Desenvolvimento da resistência aeróbia de longa duração e fortalecimento dos tendões de Aquiles."
+      "physiological_goal": "Primeiro estímulo de tempo-em-pé prolongado: adaptação estrutural de tendões, ligamentos e cartilagens articulares ao impacto repetitivo da corrida."
     },
     {
       "id": 6,
@@ -120,15 +120,15 @@
     {
       "id": 10,
       "level": "iniciante",
-      "title": "Longão de Base Aeróbia 45 Minutos",
-      "total_time_minutes": 45,
+      "title": "Longão Aeróbio com Pausas Estratégicas (40 min)",
+      "total_time_minutes": 50,
       "workout_type": "longo",
       "structure": {
-        "warmup": "7 min de caminhada e alongamento dinâmico leve.",
-        "main_set": "30 min de transição inteligente: 10 min trote Z2 + 2 min caminhada + 10 min trote Z2 + 2 min caminhada + 6 min trote Z2.",
-        "cooldown": "8 min de caminhada leve regenerativa + alongamento completo."
+        "warmup": "10 min de caminhada progressiva com mobilidade articular dinâmica de tornozelos e quadril.",
+        "main_set": "30 min em blocos aeróbios: 12 min de trote contínuo em Z2 / PSE 4 + 1 min de caminhada + 10 min de trote Z2 + 1 min de caminhada + 6 min de trote Z2. Ritmo conversacional obrigatório.",
+        "cooldown": "10 min de caminhada lenta desacelerando + alongamento estático de isquiotibiais e panturrilhas (30 seg cada)."
       },
-      "physiological_goal": "Expansão do volume total de treino semanal e aumento da densidade capilar dos membros inferiores."
+      "physiological_goal": "Aumento progressivo do volume aeróbio contínuo com pausas de segurança articular, expandindo a capilarização muscular dos membros inferiores."
     },
     {
       "id": 11,
@@ -185,15 +185,15 @@
     {
       "id": 15,
       "level": "iniciante",
-      "title": "Longão Contínuo 30 Minutos",
+      "title": "Marco de Resistência: Primeiro Longão Contínuo (30 min)",
       "total_time_minutes": 45,
       "workout_type": "longo",
       "structure": {
-        "warmup": "8 min de aquecimento progressivo de caminhada para trote em Z2.",
-        "main_set": "30 min de corrida contínua em Z2 sólida / PSE 4, mantendo pace constante do primeiro ao último quilômetro.",
-        "cooldown": "7 min de caminhada e alongamento da cadeia posterior."
+        "warmup": "10 min de trote muito leve em Z1 / PSE 2 com mobilidade articular (girar tornozelos, balanços de perna).",
+        "main_set": "30 min de corrida contínua ininterrupta em Z2 / PSE 4. Sem pausas para caminhar. Foque em manter o ritmo absolutamente conversacional — se não consegue falar frases completas, reduza o pace.",
+        "cooldown": "5 min de trote ultra leve desacelerando para caminhada + alongamento estático da cadeia posterior (panturrilhas, isquiotibiais, glúteos)."
       },
-      "physiological_goal": "Consolidação da endurance aeróbia base para transição para distâncias de 5 km contínuos."
+      "physiological_goal": "Marco de graduação aeróbia: primeira sustentação contínua de 30 min, consolidando a eficiência do volume de ejeção cardíaco e a oxidação de ácidos graxos."
     },
     {
       "id": 16,
@@ -250,15 +250,15 @@
     {
       "id": 20,
       "level": "iniciante",
-      "title": "Longão Progressivo de 5 km",
-      "total_time_minutes": 50,
+      "title": "Longão Progressivo Leve de 40 Minutos",
+      "total_time_minutes": 55,
       "workout_type": "longo",
       "structure": {
-        "warmup": "8 min de caminhada e trote aquecedor em Z1/Z2.",
-        "main_set": "35 min de corrida aeróbia em Z2 / PSE 4 (aproximadamente 5 km para iniciantes), realizando os últimos 5 min em Z3 leve / PSE 5.",
-        "cooldown": "7 min de caminhada regenerativa e soltura."
+        "warmup": "10 min de trote leve em Z1/Z2 baixa com mobilidade articular.",
+        "main_set": "40 min de corrida contínua com progressão natural: 30 min em Z2 constante / PSE 4 (ritmo conversacional) + últimos 10 min aumentando levemente para Z2 alta / PSE 4-5 (ainda confortável, mas mais firme). Não se trata de acelerar, mas de sentir o corpo responder ao esforço acumulado.",
+        "cooldown": "5 min de trote desacelerando para caminhada + alongamento leve."
       },
-      "physiological_goal": "Conquista do volume de 5 km e introdução ao conceito de finalização forte sob fadiga aeróbia acumulada."
+      "physiological_goal": "Introdução ao conceito de longão progressivo: ensinar o corpo a recrutar mais fibras musculares quando já existe fadiga aeróbia acumulada, sem sair da zona conversacional."
     },
     {
       "id": 21,
@@ -315,15 +315,15 @@
     {
       "id": 25,
       "level": "iniciante",
-      "title": "Longão de 50 Minutos em Zona 2",
-      "total_time_minutes": 62,
+      "title": "Longão Aeróbio de Consolidação (50 min)",
+      "total_time_minutes": 60,
       "workout_type": "longo",
       "structure": {
-        "warmup": "7 min de trote aquecedor em Z1/Z2 baixa.",
-        "main_set": "50 min de corrida contínua rigorosamente em Z2 / PSE 4, hidratando a cada 20 minutos.",
-        "cooldown": "5 min de caminhada lenta + alongamentos estáticos dos membros inferiores."
+        "warmup": "10 min de trote leve em Z1/Z2 baixa.",
+        "main_set": "45 min de corrida contínua aeróbia em Z2 / PSE 4. Mantenha o ritmo absolutamente constante — o objetivo é que o pace do primeiro quilômetro seja idêntico ao do último. Inicie a prática de hidratação: beba água a cada 20 minutos mesmo sem sede.",
+        "cooldown": "5 min de caminhada lenta + alongamento estático de quadríceps, panturrilhas e flexores do quadril (30 seg cada)."
       },
-      "physiological_goal": "Máxima expansão mitocondrial do ciclo iniciante e preparação para transição rumo aos 10 km."
+      "physiological_goal": "Consolidação da densidade mitocondrial e capilar do ciclo iniciante; prática de hidratação intra-treino preparatória para distâncias maiores."
     },
     {
       "id": 26,
@@ -380,15 +380,15 @@
     {
       "id": 30,
       "level": "iniciante",
-      "title": "Longão de Formatura Iniciante (6 km / 60 Minutos)",
-      "total_time_minutes": 72,
+      "title": "Longão de Formatura: Primeira Hora Contínua (60 min)",
+      "total_time_minutes": 70,
       "workout_type": "longo",
       "structure": {
-        "warmup": "7 min de aquecimento articular progressivo.",
-        "main_set": "60 min de corrida contínua ou 6 km em Z2 estável / PSE 4, celebrando a transição definitiva para o nível Intermediário.",
-        "cooldown": "5 min de caminhada + sessão completa de alongamento regenerativo."
+        "warmup": "10 min de caminhada progressiva até trote leve em Z1/Z2 com mobilidade articular completa.",
+        "main_set": "55 min de corrida contínua ininterrupta em Z2 constante / PSE 4. Este é o marco máximo do ciclo iniciante: manter 1 hora de corrida aeróbia sem parar. Ritmo absolutamente conversacional, hidratação a cada 20 min. Os últimos 5 min podem ser levemente mais rápidos apenas se o corpo permitir naturalmente.",
+        "cooldown": "5 min de caminhada lenta + sessão completa de alongamento estático (panturrilhas, isquiotibiais, quadríceps, flexores do quadril — 30 seg cada)."
       },
-      "physiological_goal": "Consolidação definitiva da base aeróbia iniciante e prontidão estrutural para treinos de limiar intermediários."
+      "physiological_goal": "Marco de graduação do nível Iniciante: consolidação definitiva da base aeróbia e prontidão estrutural (tendões, articulações e sistema cardiovascular) para a transição segura aos treinos de limiar do nível Intermediário."
     },
     {
       "id": 31,
@@ -445,15 +445,15 @@
     {
       "id": 35,
       "level": "intermediario",
-      "title": "Longão Estruturado de 12 km (com Fast Finish)",
+      "title": "Longão Aeróbio Puro de Construção (70 min)",
       "total_time_minutes": 80,
       "workout_type": "longo",
       "structure": {
-        "warmup": "10 min de trote leve em Z1/Z2.",
-        "main_set": "60 min (aprox. 10 km) em Z2 confortável / PSE 4 + 12 min finais (aprox. 2 km) em ritmo de Tempo Run / Z3 alta / PSE 6 (Fast Finish).",
-        "cooldown": "8 min de trote muito leve + alongamentos profundos."
+        "warmup": "10 min de trote leve em Z1/Z2 com mobilidade dinâmica.",
+        "main_set": "60 min de corrida contínua estritamente em Z2 / PSE 4 (ritmo conversacional constante). Este longão é 100% aeróbio — sem acelerações, sem Fast Finish. O objetivo é puro tempo-em-pé e construção de base metabólica. Hidratação a cada 20 min.",
+        "cooldown": "10 min de trote ultra leve desacelerando para caminhada + alongamento estático completo."
       },
-      "physiological_goal": "Treinamento do sistema nervoso para recrutamento de unidades motoras e manutenção de ritmo forte sob fadiga de glícogenio deponível."
+      "physiological_goal": "Construção de base aeróbia do ciclo intermediário: máxima capilarização muscular, biogênese mitocondrial e otimização da oxidação de lipídios como substrato energético primário."
     },
     {
       "id": 36,
@@ -510,15 +510,15 @@
     {
       "id": 40,
       "level": "intermediario",
-      "title": "Longão Aeróbio de 14 km (ou 85 Minutos)",
-      "total_time_minutes": 95,
+      "title": "Longão Fast Finish — Finalização Forte (80 min)",
+      "total_time_minutes": 90,
       "workout_type": "longo",
       "structure": {
-        "warmup": "10 min de trote leve aquecedor Z1/Z2.",
-        "main_set": "75 min de corrida contínua em Z2 / PSE 4 (aprox. 14 km), treinando a estratégia de hidratação e ingestão de gel de carboidrato aos 45 minutos.",
-        "cooldown": "10 min de caminhada e alongamento estático de cadeia anterior e posterior."
+        "warmup": "10 min de trote leve em Z1/Z2.",
+        "main_set": "70 min no total: 55 min em Z2 aeróbia pura / PSE 4 (ritmo constante e conversacional) + 15 min finais acelerando progressivamente para Z3 alta / PSE 6 (ritmo de meia-maratona). A transição deve ser gradual e natural — não é um sprint, é uma finalização controlada com pernas já fatigadas.",
+        "cooldown": "10 min de trote ultra leve para caminhada + alongamento estático completo de cadeia posterior e anterior."
       },
-      "physiological_goal": "Expansão do glicogênio intramuscular e resistência à fadiga periférica progressiva em longas distâncias."
+      "physiological_goal": "Treinamento de recrutamento de unidades motoras adicionais sob fadiga de glicogênio: ensinar o corpo a manter ritmo forte quando os estoques de carboidrato estão parcialmente esgotados."
     },
     {
       "id": 41,
@@ -575,15 +575,15 @@
     {
       "id": 45,
       "level": "intermediario",
-      "title": "Longão Misto com Blocos de Ritmo (15 km)",
+      "title": "Longão Blocado com Ritmo de Prova (90 min)",
       "total_time_minutes": 100,
       "workout_type": "longo",
       "structure": {
-        "warmup": "15 min de trote leve Z2.",
-        "main_set": "75 min contendo 3 blocos de [15 min de corrida aeróbia Z2 + 10 min em ritmo de Meia-Maratona Z3 alta / PSE 6].",
-        "cooldown": "10 min de trote regenerativo e caminhada."
+        "warmup": "10 min de trote leve em Z1/Z2.",
+        "main_set": "80 min em estrutura blocada: 20 min em Z2 aeróbia (PSE 4) + 10 min no Ritmo Alvo de 10k/Meia-Maratona (Z3 alta / PSE 6) + 15 min em Z2 (PSE 4) + 10 min no Ritmo Alvo (Z3 alta / PSE 6) + 15 min em Z2 (PSE 4) + 10 min finais no Ritmo Alvo (Z3 alta / PSE 6). Hidratação a cada 20 min + 1 gel de carboidrato aos 45 min.",
+        "cooldown": "10 min de trote regenerativo para caminhada + alongamento."
       },
-      "physiological_goal": "Simulação fisiológica de ritmo de meia-maratona com alternância de combustíveis celulares (gordura/glicose)."
+      "physiological_goal": "Ensaio de prova com blocos de ritmo competitivo: treinar a alternância metabólica entre oxidação de gordura (blocos aeróbios) e utilização de glicogênio (blocos de ritmo), simulando as demandas reais de uma meia-maratona."
     },
     {
       "id": 46,
@@ -640,15 +640,15 @@
     {
       "id": 50,
       "level": "intermediario",
-      "title": "Longão de Endurance 16 km (ou 95 Minutos)",
-      "total_time_minutes": 108,
+      "title": "Longão Progressivo de Endurance (95 min)",
+      "total_time_minutes": 105,
       "workout_type": "longo",
       "structure": {
         "warmup": "10 min de trote em Z1/Z2.",
-        "main_set": "88 min de corrida contínua aeróbia em Z2 / PSE 4 (aprox. 16 km), praticando nutrição intra-treino (carboidratos + eletrólitos).",
-        "cooldown": "10 min de caminhada solta e sessão intensiva de alongamentos."
+        "main_set": "85 min de corrida contínua com progressão em 3 fases: 40 min em Z2 baixa / PSE 3 (ritmo muito confortável) + 25 min em Z2 sólida / PSE 4 (ritmo constante e firme) + 20 min em Z2 alta/Z3 baixa / PSE 5 (ritmo moderado mas ainda sustentável). Praticar nutrição: água a cada 20 min + gel de carboidrato aos 45 e 75 min.",
+        "cooldown": "10 min de caminhada lenta + alongamento estático completo."
       },
-      "physiological_goal": "Otimização metabólica do metabolismo lipídico de longa duração e resistência mental à monotonia de prova."
+      "physiological_goal": "Otimização da economia de corrida sob fadiga progressiva: treinar o corpo a manter a eficiência mecânica quando o ritmo sobe gradativamente, melhorando o metabolismo lipídico e a resistência mental."
     },
     {
       "id": 51,
@@ -705,15 +705,15 @@
     {
       "id": 55,
       "level": "intermediario",
-      "title": "Longão de 18 km com Simulação de Prova",
-      "total_time_minutes": 120,
+      "title": "Longão Fast Finish de Meia-Maratona (105 min)",
+      "total_time_minutes": 115,
       "workout_type": "longo",
       "structure": {
-        "warmup": "15 min de trote leve aquecedor em Z1/Z2.",
-        "main_set": "95 min divididos em: 65 min em Z2 constante (PSE 4) + 30 min finais em ritmo de Meia-Maratona (Z3 alta / Z4 baixa / PSE 6-7).",
-        "cooldown": "10 min de caminhada e relaxamento."
+        "warmup": "10 min de trote leve em Z1/Z2.",
+        "main_set": "95 min divididos em: 70 min em Z2 constante / PSE 4 (ritmo conversacional e estável, sem verificar pace no relógio) + 25 min finais acelerando para o Ritmo Alvo de Meia-Maratona (Z3 alta / PSE 6). Os últimos 25 min devem simular o terço final da prova — sensação de esforço firme mas controlável. Nutrição: água a cada 20 min + gel aos 45 e 80 min.",
+        "cooldown": "10 min de caminhada lenta + alongamento completo."
       },
-      "physiological_goal": "Treinamento de pico de fadiga para meia-maratona, garantindo resiliência metabólica no terço final de prova."
+      "physiological_goal": "Simulação fisiológica do terço final de uma meia-maratona: treinar o recrutamento de fibras Tipo IIa sob depleção parcial de glicogênio e fadiga neuromuscular acumulada."
     },
     {
       "id": 56,
@@ -770,15 +770,15 @@
     {
       "id": 60,
       "level": "intermediario",
-      "title": "Longão de Formatura Intermediário (20 km / Meia-Maratona)",
+      "title": "Longão de Formatura: Simulação de Meia-Maratona (120 min)",
       "total_time_minutes": 130,
       "workout_type": "longo",
       "structure": {
-        "warmup": "15 min de aquecimento progressivo em Z1/Z2.",
-        "main_set": "105 min de corrida aeróbia contínua (aprox. 20 km), mantendo Z2 sólida até o km 16 e finalizando os últimos 4 km em ritmo forte Z3 alta.",
-        "cooldown": "10 min de caminhada e soltura miofascial completa."
+        "warmup": "10 min de trote leve em Z1/Z2 com mobilidade articular completa.",
+        "main_set": "110 min de corrida contínua (aprox. 18-20 km) com estratégia de prova: 70 min em Z2 sólida / PSE 4 (economia de energia nas primeiras 2/3 da distância) + 30 min no Ritmo Alvo de Meia-Maratona / Z3 alta / PSE 6 + 10 min finais em esforço firme Z3-Z4 / PSE 6-7. Nutrição completa de prova: água a cada 20 min + gel aos 40, 70 e 95 min.",
+        "cooldown": "10 min de caminhada lenta + alongamento profundo de cadeia posterior e anterior + protocolo de recuperação (hidratação com eletrólitos)."
       },
-      "physiological_goal": "Marco de graduação para o nível Avançado; domínio completo da distância da Meia-Maratona com sobressalência aeróbia."
+      "physiological_goal": "Marco de graduação para o nível Avançado: domínio completo da distância da Meia-Maratona com pacing inteligente (negativo split), validação da estratégia de nutrição intra-prova e prontidão para treinos de alta performance."
     },
     {
       "id": 61,
@@ -835,15 +835,15 @@
     {
       "id": 65,
       "level": "avancado",
-      "title": "Longão Estruturado de 22 km com Blocos de Maratona",
-      "total_time_minutes": 135,
+      "title": "Longão Aeróbio de Base Avançada (90 min em Z2)",
+      "total_time_minutes": 100,
       "workout_type": "longo",
       "structure": {
-        "warmup": "15 min de trote leve Z2 / PSE 3-4.",
-        "main_set": "110 min no total contendo: 10 km em Z2 leve + 2 blocos de 5 km no Pace Exato Alvo de Maratona (Z3 média-alta / PSE 6), com 2 km de trote Z2 entre os blocos.",
-        "cooldown": "10 min de caminhada e alongamento da cadeia posterior."
+        "warmup": "10 min de trote em Z1/Z2 com mobilidade dinâmica.",
+        "main_set": "80 min de corrida contínua estritamente em Z2 / PSE 4. Este longão é 100% aeróbio puro — sem blocos de ritmo, sem acelerações. O foco é volume confortável para manutenção da grande base mitocondrial. Cadência de 180+ SPM, hidratação a cada 20 min.",
+        "cooldown": "10 min de trote ultra leve para caminhada + alongamento completo."
       },
-      "physiological_goal": "Adaptação metabólica de economia de glicogênio em velocidade competitiva de maratona sob fadiga progressiva."
+      "physiological_goal": "Manutenção da grande base aeróbia do atleta avançado sem estresse neuroendócrino: máxima oxidação de lipídios, eficiência de volume de ejeção cardíaco e regeneração nervosa."
     },
     {
       "id": 66,
@@ -900,15 +900,15 @@
     {
       "id": 70,
       "level": "avancado",
-      "title": "Longão de 24 km com Progressão Final agressiva (Fast Finish 6 km)",
-      "total_time_minutes": 150,
+      "title": "Longão Blocado com Ritmo de Maratona (24 km / 120 min)",
+      "total_time_minutes": 130,
       "workout_type": "longo",
       "structure": {
-        "warmup": "15 min de trote Z1/Z2.",
-        "main_set": "125 min (aprox. 24 km) divididos em: 18 km em Z2 estável / PSE 4 + 6 km finais acelerando progressivamente de Z3 alta até Z4 alta (ritmo de 10 km / PSE 8).",
-        "cooldown": "10 min de caminhada solta e hidratação profunda."
+        "warmup": "10 min de trote leve em Z1/Z2.",
+        "main_set": "110 min em estrutura blocada (aprox. 22-24 km): 8 km em Z2 aeróbia / PSE 4 + 6 km no Ritmo Alvo de Maratona / Z3 alta / PSE 6 + 3 km em Z2 de recuperação ativa / PSE 4 + 5 km no Ritmo Alvo de Maratona / Z3 alta / PSE 6. Nutrição de prova: água a cada 20 min + gel aos 40, 70 e 90 min.",
+        "cooldown": "10 min de trote ultra leve para caminhada + hidratação com eletrólitos + alongamento profundo."
       },
-      "physiological_goal": "Forçar o corpo a recrutar fibras de contração rápida anaeróbias para propulsão aeróbia na exaustão total de glicogênio."
+      "physiological_goal": "Ensaio metabólico de maratona com blocos de ritmo competitivo: treinar a alternância controlada entre economia de glicogênio (aeróbio) e sustentação de pace de prova (limiar), otimizando a eficiência dos transportadores de monocarboxilato (MCT1/MCT4)."
     },
     {
       "id": 71,
@@ -965,15 +965,15 @@
     {
       "id": 75,
       "level": "avancado",
-      "title": "Longão Específico de Maratona (26 km com 15 km no Maratona Pace)",
-      "total_time_minutes": 165,
+      "title": "Longão Específico de Maratona: Fast Finish (28 km / 150 min)",
+      "total_time_minutes": 160,
       "workout_type": "longo",
       "structure": {
-        "warmup": "15 min de trote Z1/Z2.",
-        "main_set": "140 min (aprox. 26 km) contendo: 8 km em Z2 leve + 15 km contínuos e ininterruptos no Ritmo Exato Alvo da Maratona (Z3 média-alta / PSE 6-7) + 3 km de desaquecimento em Z2.",
-        "cooldown": "10 min de caminhada solta e sessão de crioterapia/alongamento recomendada."
+        "warmup": "10 min de trote em Z1/Z2.",
+        "main_set": "140 min (aprox. 26-28 km) com Fast Finish: 20 km em Z2 constante / PSE 4 (ritmo conversacional, sem olhar relógio) + 6-8 km finais no Ritmo Alvo Exato de Maratona / Z3 alta / PSE 6-7 (o ritmo que pretende manter na prova). Nutrição obrigatória de ensaio: água a cada 15-20 min + gel de carboidrato aos 40, 70, 100 e 120 min (exatamente como fará no dia da prova).",
+        "cooldown": "10 min de caminhada lenta + alongamento profundo + protocolo de recuperação (crioterapia, eletrólitos, proteína dentro de 30 min)."
       },
-      "physiological_goal": "Ensaio geral biológico e psicológico de ritmo competitvo de Maratona sob depleção real de glicogênio hepático e muscular."
+      "physiological_goal": "Ensaio geral da maratona: treinar o recrutamento de fibras Tipo IIa sob depleção real de glicogênio hepático e muscular, validar a estratégia de nutrição intra-prova e desenvolver a confiança mental no pace alvo."
     },
     {
       "id": 76,
@@ -1030,15 +1030,15 @@
     {
       "id": 80,
       "level": "avancado",
-      "title": "Longão Pico de Maratona (28 km com Variação Progressiva)",
-      "total_time_minutes": 180,
+      "title": "Longão Pico de Volume: Progressivo Controlado (30-32 km / 165 min)",
+      "total_time_minutes": 175,
       "workout_type": "longo",
       "structure": {
-        "warmup": "15 min de trote Z1/Z2.",
-        "main_set": "155 min (aprox. 28 km) em estrutura de blocos: 10 km em Z2 leve + 10 km em Ritmo de Maratona (Z3 alta / PSE 6-7) + 6 km finais em Ritmo de Meia-Maratona (Z4 baixa / PSE 7-8) + 2 km soltura.",
-        "cooldown": "10 min de caminhada solta e protocolo completo de hidratação/recuperação."
+        "warmup": "10 min de trote em Z1/Z2.",
+        "main_set": "155 min (aprox. 30-32 km — NUNCA correr a distância completa da maratona em treino) em progressão controlada: 15 km em Z2 leve / PSE 4 + 10 km no Ritmo de Maratona / Z3 alta / PSE 6 + 5-7 km finais no Ritmo de Meia-Maratona / Z3-Z4 / PSE 7 + 2 km de soltura em Z2 leve. Nutrição completa de ensaio: água a cada 15 min + gel a cada 30 min a partir do km 10.",
+        "cooldown": "10 min de caminhada lenta + protocolo completo de recuperação pós-longão (crioterapia, eletrólitos, proteína + carboidrato dentro de 30 min)."
       },
-      "physiological_goal": "O longão mais exigente do ciclo; estresse extremo de exaustão de glicogênio e teste definitivo da fortaleza mental e metabólica."
+      "physiological_goal": "O longão mais exigente do ciclo de treinamento: estresse controlado de depleção de glicogênio muscular e hepático, teste máximo da fortaleza mental e validação final da estratégia de pacing e nutrição para a maratona. Nota: maratonistas de elite nunca correm 42 km em treino — o pico de 30-32 km é o máximo seguro."
     },
     {
       "id": 81,
@@ -1095,15 +1095,15 @@
     {
       "id": 85,
       "level": "avancado",
-      "title": "Longão de Tapering 1 (18 km com 8 km no Maratona Pace)",
-      "total_time_minutes": 115,
+      "title": "Longão de Tapering: Redução com Memorização de Pace (18-20 km / 100 min)",
+      "total_time_minutes": 110,
       "workout_type": "longo",
       "structure": {
-        "warmup": "12 min de trote Z1/Z2.",
-        "main_set": "93 min (aprox. 18 km) divididos em: 10 km em Z2 leve + 8 km em Ritmo Alvo de Maratona (Z3 alta / PSE 6-7).",
-        "cooldown": "10 min de caminhada solta e alongamento."
+        "warmup": "10 min de trote leve em Z1/Z2.",
+        "main_set": "90 min (aprox. 18-20 km) com volume reduzido mas qualidade preservada: 12 km em Z2 leve / PSE 4 (ritmo muito confortável) + 6-8 km no Ritmo Exato Alvo de Prova / Z3 alta / PSE 6 (gravando o pace nos músculos sem gerar fadiga excessiva). Nutrição leve: água apenas, sem necessidade de gel.",
+        "cooldown": "10 min de caminhada lenta + alongamento estático completo."
       },
-      "physiological_goal": "Redução do volume total de longão mantendo a memória neuromuscular e metabólica do pace alvo da competição."
+      "physiological_goal": "Fase de polimento (Tapering): redução de 20-40% do volume do longão pico preservando a memória neuromuscular e metabólica do pace de prova, promovendo supercompensação de glicogênio e recuperação das micro-lesões teciduais acumuladas no ciclo de choque."
     },
     {
       "id": 86,
@@ -1160,15 +1160,15 @@
     {
       "id": 90,
       "level": "avancado",
-      "title": "Longão de Maratona / Prova Alvo (42.195 km ou 21.097 km)",
-      "total_time_minutes": 210,
+      "title": "Longão Final de Tapering: Dress Rehearsal Leve (14-16 km / 75 min)",
+      "total_time_minutes": 85,
       "workout_type": "longo",
       "structure": {
-        "warmup": "15 min de aquecimento articular, mobilidade dinâmica e trote leve de 5 min antes da largada.",
-        "main_set": "Corrida contínua na distância da Prova Alvo (Maratona 42.195 km ou Meia 21.097 km) mantendo a estratégia de pace planejada (Z3 alta / Z4 baixa / PSE 7-9) e protocolo rígido de hidratação e carboidratos.",
-        "cooldown": "15 min de caminhada lenta pós-chegada, reidratação com eletrólitos e recuperação passiva."
+        "warmup": "10 min de trote leve em Z1/Z2 com mobilidade articular completa.",
+        "main_set": "65 min (aprox. 14-16 km) de ensaio geral leve: 10 km em Z2 baixa / PSE 3 (ritmo muito fácil e relaxado) + 4-6 km no Ritmo Alvo de Prova / Z3 alta / PSE 6 (apenas para lembrar ao corpo a sensação exata do pace competitivo). Este NÃO é o dia da prova — é o último ensaio. As pernas devem terminar frescas e animadas. Testar a roupa, o tênis e a nutrição exata do dia da competição.",
+        "cooldown": "10 min de caminhada lenta + alongamento estático suave + hidratação completa com eletrólitos."
       },
-      "physiological_goal": "Execução máxima da performance atlética de alto rendimento construída durante todo o ciclo de periodização avançada."
+      "physiological_goal": "Dress Rehearsal (ensaio geral): último longão antes da prova com volume reduzido (~50% do pico), foco na supercompensação total de glicogênio muscular e hepático, restauração completa do sistema nervoso e validação final de logística e nutrição do dia da competição. A prova de 42 km ou 21 km acontece no dia da competição — NUNCA em treino."
     }
   ]
 }
