@@ -327,17 +327,22 @@ function calculateDistances(weekDays, weeklyKm, isRecoveryWeek, isTaperWeek, lev
   let peakLong;
 
   if (targetDistance === 5) {
-    startLong = 3; peakLong = level === 'advanced' ? 8 : 6;
+    startLong = level === 'beginner' ? 3 : (level === 'intermediate' ? 4 : 5);
+    peakLong = level === 'advanced' ? 8 : 6;
   } else if (targetDistance === 10) {
-    startLong = 5; peakLong = level === 'advanced' ? 14 : 10;
+    startLong = level === 'beginner' ? 4 : (level === 'intermediate' ? 6 : 8);
+    peakLong = level === 'advanced' ? 14 : (level === 'intermediate' ? 12 : 10);
   } else if (targetDistance === 15) {
-    startLong = 6; peakLong = level === 'advanced' ? 16 : 14;
+    startLong = level === 'beginner' ? 5 : (level === 'intermediate' ? 8 : 10);
+    peakLong = level === 'advanced' ? 18 : 15;
   } else if (targetDistance === 20 || targetDistance === 21) {
-    startLong = 8; peakLong = level === 'advanced' ? 22 : 18;
+    startLong = level === 'beginner' ? 6 : (level === 'intermediate' ? 10 : 12);
+    peakLong = level === 'advanced' ? 22 : 18;
   } else if (targetDistance === 42) {
-    startLong = 12; peakLong = level === 'advanced' ? 36 : 32;
+    startLong = level === 'beginner' ? 10 : (level === 'intermediate' ? 14 : 16);
+    peakLong = level === 'advanced' ? 36 : 32;
   } else {
-    startLong = Math.max(3, targetDistance * 0.3);
+    startLong = Math.max(3, targetDistance * (level === 'beginner' ? 0.3 : 0.4));
     peakLong = Math.max(6, targetDistance * 0.8);
   }
 
