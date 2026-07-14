@@ -68,24 +68,16 @@ def create_plano_doc():
 
     # TÍTULO
     add_title("DOCUMENTAÇÃO TÉCNICA E CIENTÍFICA\nPLANO DE CORRIDA APP")
-    add_p("Data: Julho de 2026 | Versão 2.5 (Erradicação de Treinos Legados) | Arquitetura: React 18 + Vite + JSON API")
+    add_p("Data: Julho de 2026 | Versão 2.6 (Esvaziamento do Catálogo de Treinos) | Arquitetura: React 18 + Vite + JSON API")
 
-    add_h1("1. Erradicação Completa de Treinos Legados e Conexão JSON (v2.5)")
-    add_p("Na versão 2.5, foram eliminados todos os resquícios de treinos antigos ou genéricos que ficavam hardcoded no código fonte do motor de cálculo (trainingEngine.js) e em workoutCatalog.js. O sistema agora é 100% alimentado pelo banco de dados JSON (workouts_api_catalog.json) com 90 planos de treinamento científicos e periodizados.")
-    add_p("O catálogo normaliza dinamicamente as categorias da API (continuo, longo, intervalado, fartlek, tempo_run, hill_repeats) para os tipos semanais do motor (EASY, LONG, INTERVAL, TEMPO, HILL), garantindo que cada sessão gerada exiba pontualmente o Aquecimento, Parte Principal, Volta à Calma e Objetivo Biológico.")
+    add_h1("1. Esvaziamento e Limpeza do Catálogo (v2.6)")
+    add_p("Na versão 2.6, conforme solicitado, todos os treinos do catálogo foram apagados (workouts: []) em workouts_api_catalog.json. O sistema mantém sua arquitetura limpa e pronta para receber uma nova alimentação de dados JSON sem gerar erros na interface ou na compilação.")
 
-    add_h1("2. Perfil dos 90 Treinos Científicos do Banco Oficial")
-    add_h2("Nível Iniciante (30 Treinos - ID 1 a 30)")
-    add_p("Foco em adaptação articular progressiva, alternância de caminhada e corrida (Run-Walk nas proporções 1:1, 2:1 e 3:1), iniciação ao trote contínuo em Zona 2, cadência de proteção articular (180 SPM) e introdução a Fartlek e subidas leves.")
-
-    add_h2("Nível Intermediário (30 Treinos - ID 31 a 60)")
-    add_p("Foco no aumento do volume sustentável em Zona 2, introdução a treinos no limiar de lactato (Tempo Run contínuo e fracionado), Fartlek piramidal e queniano, Cruise Intervals no ritmo de 10k/21k e longões com progressão de ritmo (Fast Finish).")
-
-    add_h2("Nível Avançado (30 Treinos - ID 61 a 90)")
-    add_p("Foco em máxima performance, intervalados em pista visando VO2 máximo severo (10x800m, 15x400m), Duplo Limiar Norueguês (4x2000m), Over-Under Tempo Runs, Hill Repeats explosivos e longões estruturados no pace exato de maratona e polimento.")
+    add_h1("2. Estrutura Base de Fallback do Motor de Treinamento")
+    add_p("Enquanto o banco de dados JSON estiver vazio, o motor de treinamento (trainingEngine.js) utiliza as descrições limpas e fisiológicas de fallback base, garantindo que o cronograma semanal continue funcional para o corredor com orientações contínuas para cada tipo de sessão (LONG, EASY, INTERVAL, TEMPO, HILL, REST e STRENGTH).")
 
     add_h1("3. Regra Universal: Fortalecimento Opcional nas Segundas-feiras")
-    add_p("A Segunda-feira de todos os planos está configurada com o Treino de Fortalecimento Funcional e Mobilidade com marcação de ⭐ Opcional (`isOptional: true`). Dessa forma, o atleta obtém suporte biomecânico contra lesões caso treine, ou descanso completo sem perda de porcentagem no progresso semanal.")
+    add_p("A Segunda-feira de todos os planos permanece configurada com o Treino de Fortalecimento Funcional e Mobilidade com marcação de ⭐ Opcional (`isOptional: true`). Dessa forma, o atleta obtém suporte biomecânico contra lesões caso treine, ou descanso completo sem perda de porcentagem no progresso semanal.")
 
     out_path = os.path.join(os.path.dirname(__file__), "Documentacao_PlanoDeCorrida.docx")
     doc.save(out_path)
